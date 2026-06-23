@@ -1,0 +1,36 @@
+{
+  "name": "JustHub Custom Downloads",
+  "updatedAt": "2026-06-22T00:00:00.000Z",
+  "repository": "https://github.com/loveawayss/JustReleases",
+  "notes": "Use GitHub Releases para hospedar arquivos customizados. Depois substitua os campos pending por links diretos de release.",
+  "downloads": {
+    "hailstorm": {
+      "label": "Hailstorm",
+      "status": "pending",
+      "downloadType": "direct",
+      "downloadUrl": "",
+      "fileName": "Hailstorm.zip"
+    },
+    "attack-shark-x3": {
+      "label": "Attack Shark X3 Driver",
+      "status": "pending",
+      "downloadType": "direct",
+      "downloadUrl": "",
+      "fileName": "AttackSharkX3.zip"
+    },
+    "attack-shark-x3-pro": {
+      "label": "Attack Shark X3 Pro Driver",
+      "status": "pending",
+      "downloadType": "direct",
+      "downloadUrl": "",
+      "fileName": "AttackSharkX3Pro.zip"
+    },
+    "delux-m600-pro": {
+      "label": "Delux M600 Pro Driver",
+      "status": "pending",
+      "downloadType": "direct",
+      "downloadUrl": "",
+      "fileName": "DeluxM600Pro.zip"
+    }
+  }
+}
