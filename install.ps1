@@ -1,23 +1,32 @@
-$ErrorActionPreference = "Stop"
+# Script de Instalação/Atualização Remota do JustHub para o Cliente Final
+# Funciona em qualquer Windows, mesmo recém-formatado (não precisa de Node.js, Rust ou Git)
 
-$Url = "https://github.com/loveawayss/JustReleases/releases/download/justhub-v1/JustHub.exe"
-$OutFile = Join-Path $env:TEMP "JustHub.exe"
+# Forçar codificação UTF-8 no console para acentos
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 
-Write-Host "Baixando JustHub..." -ForegroundColor Cyan
+# URL direta do executável instalador no GitHub
+$installerUrl = "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
+$tempPath = "$env:TEMP\justhub-setup.exe"
 
-Invoke-WebRequest -Uri $Url -OutFile $OutFile -UseBasicParsing
+Write-Host "📥 Baixando a versão mais recente do JustHub..." -ForegroundColor Cyan
 
-if (!(Test-Path $OutFile)) {
-    Write-Host "Falha: o instalador nao foi baixado." -ForegroundColor Red
-    exit 1
+try {
+    # Baixar o instalador direto do link
+    Invoke-WebRequest -Uri $installerUrl -OutFile $tempPath -UseBasicParsing
+    
+    if (Test-Path $tempPath) {
+        Write-Host "🚀 Instalando/Atualizando silenciosamente..." -ForegroundColor Green
+        # Executa o instalador em segundo plano com o argumento /S (Silent)
+        $process = Start-Process -FilePath $tempPath -ArgumentList "/S" -PassThru -Wait
+        
+        # Remover instalador temporário
+        Remove-Item $tempPath -ErrorAction SilentlyContinue
+        
+        Write-Host "✅ JustHub instalado e atualizado com sucesso!" -ForegroundColor Green
+    } else {
+        Write-Host "❌ Erro: Falha ao salvar o instalador temporário." -ForegroundColor Red
+    }
+} catch {
+    Write-Host "❌ Erro ao baixar o JustHub. Verifique sua conexão com a internet." -ForegroundColor Red
+    Write-Host $_.Exception.Message -ForegroundColor Yellow
 }
-
-$Size = (Get-Item $OutFile).Length
-
-if ($Size -lt 1000000) {
-    Write-Host "Falha: o arquivo baixado parece invalido ($Size bytes)." -ForegroundColor Red
-    exit 1
-}
-
-Write-Host "Abrindo instalador do JustHub..." -ForegroundColor Green
-Start-Process -FilePath $OutFile
