@@ -1,9 +1,8 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "notes": [
-    "Novo catálogo expandido (EA App, Spotify, Roblox, OBS Studio, Razer, SteelSeries, Opera GX)",
-    "Melhoria no fallback visual de ícones (iniciais automáticas)",
-    "Correções e otimizações gerais de estabilidade"
+    "Adicionados todos os ícones originais dos novos apps (Spotify, EA App, Roblox, OBS Studio, Razer, SteelSeries, Opera GX)",
+    "Melhoria na renderização e otimização visual geral"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
