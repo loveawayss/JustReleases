@@ -1,9 +1,9 @@
 {
-  "version": "0.1.4",
+  "version": "0.1.5",
   "notes": [
-    "Corrigida checagem de atualizações contornando o cache da CDN do GitHub",
-    "Adicionados todos os logotipos oficiais originais",
-    "Melhoria na renderização e otimização visual geral"
+    "Novo catálogo expandido (Logitech OMM, HWiNFO64, Revo Uninstaller, Geek Uninstaller, VLC Media Player)",
+    "Adicionados todos os logotipos oficiais originais para o novo catálogo",
+    "Melhoria e otimização de velocidade na checagem de atualizações"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
