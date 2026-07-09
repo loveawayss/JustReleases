@@ -1,8 +1,9 @@
 {
-  "version": "0.1.25",
+  "version": "0.1.26",
   "notes": [
-    "Adicionada contagem de tempo decorrido de jogo (startTimestamp) no status do Discord",
-    "Melhorias de desempenho e conectividade com a API de presença"
+    "Substituído os diálogos alert/confirm do navegador por modais customizadas modernas e integradas ao tema do app",
+    "Ajustado organizador de pastas para não adicionar o prefixo 'JustHub_' nas novas pastas criadas",
+    "Otimização no organizador para ignorar e preservar arquivos de atalho (.lnk e .url) na Área de Trabalho"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
