@@ -1,8 +1,7 @@
 {
-  "version": "0.1.12",
+  "version": "0.1.13",
   "notes": [
-    "Adicionado suporte completo para avatares animados em formato .gif nos perfis privados",
-    "Limite de tamanho de arquivo GIF otimizado para até 2MB"
+    "Aumentado o limite de tamanho máximo dos GIFs de perfil para 4MB"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
