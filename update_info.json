@@ -1,8 +1,8 @@
 {
-  "version": "0.1.9",
+  "version": "0.1.10",
   "notes": [
-    "Cards de Perfis Privados simplificados (removida contagem de downloads)",
-    "Redesign completo com avatares coloridos por perfil"
+    "Adicionada opção para editar o nome dos perfis privados",
+    "Adicionada opção para selecionar e remover foto de perfil personalizada (com compressão automática para carregamento rápido)"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
