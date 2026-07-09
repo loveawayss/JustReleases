@@ -1,7 +1,8 @@
 {
-  "version": "0.1.13",
+  "version": "0.1.14",
   "notes": [
-    "Aumentado o limite de tamanho máximo dos GIFs de perfil para 4MB"
+    "Substituídos os ícones de texto 'DL' dos downloads privados por ícones gráficos modernos",
+    "Adicionada detecção inteligente de arquivo para exibir ícone de arquivo compactado (.zip, .rar) ou documento padrão"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
