@@ -1,8 +1,8 @@
 {
-  "version": "0.1.11",
+  "version": "0.1.12",
   "notes": [
-    "Corrigidos links de download quebrados para Razer Synapse 4, SteelSeries GG, Opera GX e HWiNFO64",
-    "Corrigido contorno/vazamento de cor do perfil sob fotos de perfil personalizadas"
+    "Adicionado suporte completo para avatares animados em formato .gif nos perfis privados",
+    "Limite de tamanho de arquivo GIF otimizado para até 2MB"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
