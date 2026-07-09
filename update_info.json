@@ -1,9 +1,9 @@
 {
-  "version": "0.1.17",
+  "version": "0.1.18",
   "notes": [
-    "Corrigido o erro no download do HWiNFO64",
-    "Substituído link do SourceForge (bloqueado por Cloudflare) pelo link do espelho oficial do Scoop (sac.sk) em formato ZIP portátil",
-    "Estabilidade de download do catálogo de utilitários restaurada a 100%"
+    "Corrigido bug de carregamento de perfis na nuvem do Vercel",
+    "Adicionado suporte a arquivos grandes superiores a 1MB utilizando cabeçalho raw no GitHub API",
+    "Resolvido o problema de perfis resetando para o estado padrão"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
