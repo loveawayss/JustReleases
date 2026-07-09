@@ -1,8 +1,8 @@
 {
-  "version": "0.1.24",
+  "version": "0.1.25",
   "notes": [
-    "Sincronizada a chave do logotipo do Rich Presence com a chave 'justhub_logo_discord'",
-    "Ajuste na integração de imagem automática do launcher"
+    "Adicionada contagem de tempo decorrido de jogo (startTimestamp) no status do Discord",
+    "Melhorias de desempenho e conectividade com a API de presença"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
