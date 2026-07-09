@@ -1,9 +1,9 @@
 {
-  "version": "0.1.27",
+  "version": "0.1.28",
   "notes": [
-    "Nova funcionalidade de Instalação Silenciosa",
-    "Suporte a execução silenciosa com parâmetros específicos (como /q no DirectX)",
-    "Substituído os diálogos nativos do navegador por modais escuras integradas ao tema"
+    "Atualizado o Visual C++ para a versão Redistributable AIO (All-in-One)",
+    "Instala todas as versões de 2005 até 2022 de forma automática",
+    "Configurado suporte para parâmetros silenciosos de instalação em lote (/ai /gm2)"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
