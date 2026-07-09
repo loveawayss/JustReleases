@@ -1,9 +1,9 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "notes": [
-    "Versão inicial de lançamento",
-    "Scanner de Registro do Windows ultra-rápido",
-    "Blindagem de API Key em Vercel e senhas criptografadas em SHA-256"
+    "Novo catálogo expandido (EA App, Spotify, Roblox, OBS Studio, Razer, SteelSeries, Opera GX)",
+    "Melhoria no fallback visual de ícones (iniciais automáticas)",
+    "Correções e otimizações gerais de estabilidade"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
