@@ -1,9 +1,8 @@
 {
-  "version": "0.1.22",
+  "version": "0.1.23",
   "notes": [
-    "Fixado o Client ID do Discord (1524762785324470373)",
-    "Removido campos de texto manuais e simplificado opções do Discord nas Configurações",
-    "Atualização automática de status e detalhes baseada em detecção de tela"
+    "Ajustado os textos de detalhes e estados do Discord RPC para evitar redundâncias",
+    "Melhorado o fluxo e aparência do status no Discord"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
