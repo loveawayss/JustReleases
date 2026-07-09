@@ -1,8 +1,8 @@
 {
-  "version": "0.1.10",
+  "version": "0.1.11",
   "notes": [
-    "Adicionada opção para editar o nome dos perfis privados",
-    "Adicionada opção para selecionar e remover foto de perfil personalizada (com compressão automática para carregamento rápido)"
+    "Corrigidos links de download quebrados para Razer Synapse 4, SteelSeries GG, Opera GX e HWiNFO64",
+    "Corrigido contorno/vazamento de cor do perfil sob fotos de perfil personalizadas"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
