@@ -1,9 +1,9 @@
 {
-  "version": "0.1.20",
+  "version": "0.1.21",
   "notes": [
-    "Ajustado layout de cards na tela inicial para visualização lado a lado em 3 colunas",
-    "Melhorias de responsividade para diferentes tamanhos de tela",
-    "Estabilidade da integração Discord RPC e Organizador de Pastas mantida"
+    "Adicionado campo para configurar o Discord Client ID nas Configurações",
+    "Melhorado suporte para status personalizados com logos e nomes editáveis",
+    "Correção na comunicação IPC do Discord RPC"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
