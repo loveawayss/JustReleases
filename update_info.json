@@ -1,9 +1,9 @@
 {
-  "version": "0.1.16",
+  "version": "0.1.17",
   "notes": [
-    "Corrigido o problema que resetava as fotos, nomes e arquivos dos perfis privados ao atualizar o app",
-    "Profiles.json desvinculado do rastreamento do Git para segurança total dos dados na nuvem",
-    "Ativação do novo design premium de atualização obrigatória"
+    "Corrigido o erro no download do HWiNFO64",
+    "Substituído link do SourceForge (bloqueado por Cloudflare) pelo link do espelho oficial do Scoop (sac.sk) em formato ZIP portátil",
+    "Estabilidade de download do catálogo de utilitários restaurada a 100%"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
