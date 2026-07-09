@@ -1,9 +1,8 @@
 {
-  "version": "0.1.8",
+  "version": "0.1.9",
   "notes": [
-    "Redesign completo dos cards de Perfis Privados com avatares coloridos e meta info",
-    "Ícones oficiais do Revo Uninstaller e Geek Uninstaller adicionados",
-    "Catálogo expandido com Logitech OMM, HWiNFO64, Revo, Geek e VLC"
+    "Cards de Perfis Privados simplificados (removida contagem de downloads)",
+    "Redesign completo com avatares coloridos por perfil"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
