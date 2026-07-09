@@ -1,10 +1,9 @@
 {
-  "version": "0.1.15",
+  "version": "0.1.16",
   "notes": [
-    "Nova tela de atualização premium com visual integrado (Dark Orange FX)",
-    "Adicionado efeito de desfoque (frosted glass) e gradiente premium no fundo",
-    "Adicionadas animações flutuantes no ícone de atualização e efeito de pulso de radar (ping)",
-    "Nova barra de progresso varrida (sweep) em gradiente durante a instalação"
+    "Corrigido o problema que resetava as fotos, nomes e arquivos dos perfis privados ao atualizar o app",
+    "Profiles.json desvinculado do rastreamento do Git para segurança total dos dados na nuvem",
+    "Ativação do novo design premium de atualização obrigatória"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
