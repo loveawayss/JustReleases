@@ -1,9 +1,9 @@
 {
-  "version": "0.1.19",
+  "version": "0.1.20",
   "notes": [
-    "Nova funcionalidade: Integração com Discord Rich Presence (RPC) customizável",
-    "Nova funcionalidade: Organizador Automático de arquivos no Desktop e Downloads",
-    "Novos estilos visuais integrados ao tema Dark Orange FX"
+    "Ajustado layout de cards na tela inicial para visualização lado a lado em 3 colunas",
+    "Melhorias de responsividade para diferentes tamanhos de tela",
+    "Estabilidade da integração Discord RPC e Organizador de Pastas mantida"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
