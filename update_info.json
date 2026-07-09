@@ -1,9 +1,9 @@
 {
-  "version": "0.1.21",
+  "version": "0.1.22",
   "notes": [
-    "Adicionado campo para configurar o Discord Client ID nas Configurações",
-    "Melhorado suporte para status personalizados com logos e nomes editáveis",
-    "Correção na comunicação IPC do Discord RPC"
+    "Fixado o Client ID do Discord (1524762785324470373)",
+    "Removido campos de texto manuais e simplificado opções do Discord nas Configurações",
+    "Atualização automática de status e detalhes baseada em detecção de tela"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
