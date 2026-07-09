@@ -1,9 +1,9 @@
 {
-  "version": "0.1.6",
+  "version": "0.1.7",
   "notes": [
-    "Correção definitiva do sistema de atualização (agora usa a GitHub API diretamente, sem cache de CDN)",
-    "Catálogo expandido com Logitech OMM, HWiNFO64, Revo Uninstaller, Geek Uninstaller, VLC Media Player",
-    "Adicionados logotipos oficiais para todos os novos apps"
+    "Ícones oficiais do Revo Uninstaller e Geek Uninstaller adicionados",
+    "Correção definitiva do sistema de atualização via GitHub API",
+    "Catálogo expandido com Logitech OMM, HWiNFO64, Revo, Geek e VLC"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
