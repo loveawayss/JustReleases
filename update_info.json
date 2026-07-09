@@ -1,9 +1,9 @@
 {
-  "version": "0.1.26",
+  "version": "0.1.27",
   "notes": [
-    "Substituído os diálogos alert/confirm do navegador por modais customizadas modernas e integradas ao tema do app",
-    "Ajustado organizador de pastas para não adicionar o prefixo 'JustHub_' nas novas pastas criadas",
-    "Otimização no organizador para ignorar e preservar arquivos de atalho (.lnk e .url) na Área de Trabalho"
+    "Nova funcionalidade de Instalação Silenciosa",
+    "Suporte a execução silenciosa com parâmetros específicos (como /q no DirectX)",
+    "Substituído os diálogos nativos do navegador por modais escuras integradas ao tema"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
