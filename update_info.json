@@ -1,8 +1,8 @@
 {
-  "version": "0.1.23",
+  "version": "0.1.24",
   "notes": [
-    "Ajustado os textos de detalhes e estados do Discord RPC para evitar redundâncias",
-    "Melhorado o fluxo e aparência do status no Discord"
+    "Sincronizada a chave do logotipo do Rich Presence com a chave 'justhub_logo_discord'",
+    "Ajuste na integração de imagem automática do launcher"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
