@@ -1,9 +1,10 @@
 {
-  "version": "0.1.28",
+  "version": "0.1.29",
   "notes": [
-    "Atualizado o Visual C++ para a versão Redistributable AIO (All-in-One)",
-    "Instala todas as versões de 2005 até 2022 de forma automática",
-    "Configurado suporte para parâmetros silenciosos de instalação em lote (/ai /gm2)"
+    "Nova funcionalidade de Drag & Drop para upload automático de arquivos",
+    "Resolução automática e inteligente de arquivos de atalho (.lnk e .url)",
+    "Compactação e empacotamento em ZIP automático de pastas arrastadas",
+    "Upload de arquivos em segundo plano com indicador de progresso para Catbox"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
