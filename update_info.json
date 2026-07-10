@@ -1,8 +1,8 @@
 {
-  "version": "0.1.32",
+  "version": "0.1.33",
   "notes": [
-    "Adicionado tolerância de validação de certificados SSL (danger_accept_invalid_certs) para uploads no Catbox",
-    "Adicionado fallback automático em nuvem para o Transfer.sh caso o Catbox falhe ou seja bloqueado pela operadora de internet"
+    "Nova funcionalidade: Salvamento e acesso de Links de sites diretamente no perfil privado",
+    "Adicionado ícone de Link e botão 'Acessar' que abre o navegador padrão do Windows automaticamente"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
