@@ -1,8 +1,8 @@
 {
-  "version": "0.1.41",
+  "version": "0.1.42",
   "notes": [
-    "Corrigido bug de rate limit do GitHub ao checar atualizações, consultando diretamente o raw CDN com cache-busting",
-    "Adicionado prompt de permissões elevadas (UAC RunAs) para garantir que a instalação de atualizações nunca falhe por privilégios negados"
+    "Removido cache de perfil local (AppData) por completo de acordo com o pedido do usuário",
+    "Forçada sincronização em tempo real direta na nuvem do Vercel com cabeçalhos anti-cache e cache-busting (?t=timestamp) para evitar reversão de dados"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
