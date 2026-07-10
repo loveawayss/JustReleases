@@ -1,8 +1,8 @@
 {
-  "version": "0.1.33",
+  "version": "0.1.34",
   "notes": [
-    "Nova funcionalidade: Salvamento e acesso de Links de sites diretamente no perfil privado",
-    "Adicionado ícone de Link e botão 'Acessar' que abre o navegador padrão do Windows automaticamente"
+    "Nova organização visual: Divisão da área privada em duas seções distintas: 'Arquivos e Instaladores' e 'Links de Sites e Páginas Web'",
+    "Alinhamento estético completo com o design dark orange do JustHub"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
