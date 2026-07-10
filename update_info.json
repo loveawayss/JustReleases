@@ -1,8 +1,9 @@
 {
-  "version": "0.1.38",
+  "version": "0.1.39",
   "notes": [
-    "Removido por completo o recurso de arrastar arquivos/pastas (Drag & Drop) e uploads em nuvem automática devido a conflitos de SSL/antivírus",
-    "Os downloads privados e links agora são gerenciados de forma 100% manual e robusta, colando o link direto de download"
+    "Corrigido o problema dos perfis privados ficarem bugados/inconsistentes devido a timeouts ou falhas na API do Vercel",
+    "Adicionado sistema robusto de dupla sincronização: Gravação local persistente no AppData e salvamento na nuvem do Vercel",
+    "Adicionada resiliência contra crashes de render em React caso a lista de perfis do backend sofra latência na inicialização"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
