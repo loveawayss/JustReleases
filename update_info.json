@@ -1,9 +1,7 @@
 {
-  "version": "0.1.39",
+  "version": "0.1.40",
   "notes": [
-    "Corrigido o problema dos perfis privados ficarem bugados/inconsistentes devido a timeouts ou falhas na API do Vercel",
-    "Adicionado sistema robusto de dupla sincronização: Gravação local persistente no AppData e salvamento na nuvem do Vercel",
-    "Adicionada resiliência contra crashes de render em React caso a lista de perfis do backend sofra latência na inicialização"
+    "Aumentado o limite de tamanho para avatares do tipo GIF animado de 4MB para 5MB"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
