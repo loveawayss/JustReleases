@@ -1,8 +1,8 @@
 {
-  "version": "0.1.37",
+  "version": "0.1.38",
   "notes": [
-    "Nova compactação de pastas ultra robusta com tar.exe nativo do Windows (evita falhas de caracteres especiais, espaços ou privilégios de PowerShell)",
-    "Correção de bug visual de viewport/enquadro (layout shift) ao arrastar arquivos/pastas para dentro da janela"
+    "Removido por completo o recurso de arrastar arquivos/pastas (Drag & Drop) e uploads em nuvem automática devido a conflitos de SSL/antivírus",
+    "Os downloads privados e links agora são gerenciados de forma 100% manual e robusta, colando o link direto de download"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
