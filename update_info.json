@@ -1,8 +1,8 @@
 {
-  "version": "0.1.34",
+  "version": "0.1.35",
   "notes": [
-    "Nova organização visual: Divisão da área privada em duas seções distintas: 'Arquivos e Instaladores' e 'Links de Sites e Páginas Web'",
-    "Alinhamento estético completo com o design dark orange do JustHub"
+    "Ajuste estético: Remoção de emojis/emotes dos títulos das seções de arquivos e links de sites",
+    "Melhoria na legibilidade dos painéis"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
