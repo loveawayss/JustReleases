@@ -1,8 +1,9 @@
 {
-  "version": "0.1.44",
+  "version": "0.1.45",
   "notes": [
-    "Corrigido o endpoint da API do Catbox.moe no backend nativo, apontando para api.php em vez de api.html",
-    "Resolvidos erros ao fazer upload de imagens de avatar e GIFs animados"
+    "Perfis privados agora usam sessão autenticada no servidor",
+    "Removidas credenciais e dados privados do aplicativo desktop",
+    "Melhorias de segurança e sincronização de perfis"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
