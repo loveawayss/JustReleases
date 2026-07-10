@@ -1,8 +1,9 @@
 {
-  "version": "0.1.42",
+  "version": "0.1.43",
   "notes": [
-    "Removido cache de perfil local (AppData) por completo de acordo com o pedido do usuário",
-    "Forçada sincronização em tempo real direta na nuvem do Vercel com cabeçalhos anti-cache e cache-busting (?t=timestamp) para evitar reversão de dados"
+    "Otimização massiva de banco de dados Vercel, reduzindo o arquivo de perfis de 3.1MB para apenas 4.0KB (redução de 99.9%)",
+    "Novo fluxo inteligente de avatar: Imagens enviadas são hospedadas na nuvem e salvas como URLs em vez de base64 gigante no JSON",
+    "Corrigidas falhas e lentidões ao salvar metadados de perfil devido a limites de requisição de servidor (HTTP 413 Payload Too Large)"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
