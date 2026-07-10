@@ -1,10 +1,9 @@
 {
-  "version": "0.1.29",
+  "version": "0.1.30",
   "notes": [
-    "Nova funcionalidade de Drag & Drop para upload automático de arquivos",
-    "Resolução automática e inteligente de arquivos de atalho (.lnk e .url)",
-    "Compactação e empacotamento em ZIP automático de pastas arrastadas",
-    "Upload de arquivos em segundo plano com indicador de progresso para Catbox"
+    "Correção nativa para arrastar e soltar (Drag & Drop) de pastas",
+    "Melhor estabilidade no processamento de atalhos e compressão de diretórios",
+    "Adicionado perfil Carlos"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
