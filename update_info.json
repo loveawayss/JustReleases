@@ -1,9 +1,8 @@
 {
-  "version": "0.1.30",
+  "version": "0.1.31",
   "notes": [
-    "Correção nativa para arrastar e soltar (Drag & Drop) de pastas",
-    "Melhor estabilidade no processamento de atalhos e compressão de diretórios",
-    "Adicionado perfil Carlos"
+    "Resolução do bug de arrastar e soltar (Drag & Drop) nativo com suporte a pastas",
+    "Correção de escopo para listeners do Tauri 2 no Chromium WebView2"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
