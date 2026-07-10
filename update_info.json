@@ -1,9 +1,9 @@
 {
-  "version": "0.1.45",
+  "version": "0.1.46",
   "notes": [
-    "Perfis privados agora usam sessão autenticada no servidor",
-    "Removidas credenciais e dados privados do aplicativo desktop",
-    "Melhorias de segurança e sincronização de perfis"
+    "Corrigido o botão de adicionar downloads em perfis com apenas links",
+    "Corrigido o salvamento de perfis com avatar legado",
+    "Melhorias no cadastro e sincronização de links e downloads"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
