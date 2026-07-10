@@ -1,8 +1,8 @@
 {
-  "version": "0.1.36",
+  "version": "0.1.37",
   "notes": [
-    "Nova experiência de usuário (UX): Modais completamente separados e dedicados para 'Novo Download' e 'Novo Link'",
-    "Removido campo de Drag & Drop e 'Nome do arquivo' ao adicionar/editar links web de sites"
+    "Nova compactação de pastas ultra robusta com tar.exe nativo do Windows (evita falhas de caracteres especiais, espaços ou privilégios de PowerShell)",
+    "Correção de bug visual de viewport/enquadro (layout shift) ao arrastar arquivos/pastas para dentro da janela"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
