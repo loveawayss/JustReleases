@@ -1,8 +1,8 @@
 {
-  "version": "0.1.31",
+  "version": "0.1.32",
   "notes": [
-    "Resolução do bug de arrastar e soltar (Drag & Drop) nativo com suporte a pastas",
-    "Correção de escopo para listeners do Tauri 2 no Chromium WebView2"
+    "Adicionado tolerância de validação de certificados SSL (danger_accept_invalid_certs) para uploads no Catbox",
+    "Adicionado fallback automático em nuvem para o Transfer.sh caso o Catbox falhe ou seja bloqueado pela operadora de internet"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
 }
