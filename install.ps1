@@ -5,7 +5,7 @@
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 
 # URL direta do executável instalador no GitHub
-$installerUrl = "https://raw.githubusercontent.com/loveawayss/JustHubLinks/main/releases/justhub-setup.exe"
+$installerUrl = "https://raw.githubusercontent.com/loveawayss/JustHubRelease/main/releases/justhub-setup.exe"
 $tempPath = "$env:TEMP\justhub-setup.exe"
 
 Write-Host "📥 Baixando a versão mais recente do JustHub..." -ForegroundColor Cyan
