@@ -1,9 +1,9 @@
 {
-  "version": "0.1.46",
+  "version": "0.1.47",
   "notes": [
-    "Corrigido o botão de adicionar downloads em perfis com apenas links",
-    "Corrigido o salvamento de perfis com avatar legado",
-    "Melhorias no cadastro e sincronização de links e downloads"
+    "Custom Resolution Utility agora usa o download oficial atualizado",
+    "DPC Latency agora abre a página oficial do fabricante",
+    "Removidos downloads antigos hospedados no JustHubRelease"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubRelease/main/releases/justhub-setup.exe"
 }
