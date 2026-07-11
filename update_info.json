@@ -1,8 +1,8 @@
 {
-  "version": "0.1.47",
+  "version": "0.1.48",
   "notes": [
     "Custom Resolution Utility agora usa o download oficial atualizado",
-    "DPC Latency agora abre a página oficial do fabricante",
+    "DPC Latency agora abre a pÃ¡gina oficial do fabricante",
     "Removidos downloads antigos hospedados no JustHubRelease"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/loveawayss/JustHubRelease/main/releases/justhub-setup.exe"
