@@ -2,7 +2,7 @@
   "version": "0.1.54",
   "notes": [
     "Custom Resolution Utility agora usa o download oficial atualizado",
-    "DPC Latency agora abre a pÃ¡gina oficial do fabricante",
+    "DPC Latency agora abre a página oficial do fabricante",
     "Removidos downloads antigos hospedados no JustHubRelease"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/JustCorporation/JustHubRelease/main/releases/justhub-setup.exe"
