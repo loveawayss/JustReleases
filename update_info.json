@@ -1,9 +1,11 @@
 {
-  "version": "0.1.63",
+  "version": "0.1.64",
   "notes": [
-    "Custom Resolution Utility agora usa o download oficial atualizado",
-    "DPC Latency agora abre a página oficial do fabricante",
-    "Removidos downloads antigos hospedados no JustHubRelease"
+    "Implementado hardening completo no ciclo de atualização automática",
+    "Adicionada verificação de integridade via hash SHA-256",
+    "Instalação silenciosa sem interrupções visuais",
+    "Relançamento automático do app corrigido"
   ],
-  "downloadUrl": "https://raw.githubusercontent.com/JustCorporation/JustHubRelease/main/releases/justhub-setup.exe"
+  "downloadUrl": "https://raw.githubusercontent.com/JustCorporation/JustHubRelease/main/releases/justhub-setup.exe",
+  "sha256": "50984fa3bf44000bb0bb62cda424201681e9b6a4d673c933d50bcadc8a564f3c"
 }
