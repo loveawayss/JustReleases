@@ -1,11 +1,10 @@
 {
-  "version": "0.1.64",
+  "version": "0.1.66",
   "notes": [
-    "Implementado hardening completo no ciclo de atualização automática",
-    "Adicionada verificação de integridade via hash SHA-256",
-    "Instalação silenciosa sem interrupções visuais",
-    "Relançamento automático do app corrigido"
+    "Corrigida duplicação de atalhos na Área de Trabalho",
+    "Removidos resíduos e executáveis antigos do Just HUB",
+    "Auto-update com verificação de integridade e segurança robusta"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/JustCorporation/JustHubRelease/main/releases/justhub-setup.exe",
-  "sha256": "50984fa3bf44000bb0bb62cda424201681e9b6a4d673c933d50bcadc8a564f3c"
+  "sha256": "e310ee9f6434f2980bc1a15eb4d0f2d6ca0bd3a0cf73cf73e3ad790991df7d9b"
 }
