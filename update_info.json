@@ -1,9 +1,9 @@
 {
-  "version": "0.1.67",
+  "version": "0.1.68",
   "notes": [
     "Corrigidos caminhos de atualizacao automatica para instalacoes de usuario",
     "Limpeza automatica aprimorada de atalhos e pastas antigas"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/JustCorporation/JustHubRelease/main/releases/justhub-setup.exe",
-  "sha256": "d0d694dda078ae12d67f4772a9ad84ab9339d64a71ff083c3b579a32fa42398b"
+  "sha256": "2ad9e5bdf3db57156692f004aa04d027adc336b57f8ed371d65afed7ad03e7da"
 }
