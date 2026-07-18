@@ -1,10 +1,9 @@
 {
-  "version": "0.1.66",
+  "version": "0.1.67",
   "notes": [
-    "Corrigida duplicação de atalhos na Área de Trabalho",
-    "Removidos resíduos e executáveis antigos do Just HUB",
-    "Auto-update com verificação de integridade e segurança robusta"
+    "Corrigidos caminhos de atualizacao automatica para instalacoes de usuario",
+    "Limpeza automatica aprimorada de atalhos e pastas antigas"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/JustCorporation/JustHubRelease/main/releases/justhub-setup.exe",
-  "sha256": "e310ee9f6434f2980bc1a15eb4d0f2d6ca0bd3a0cf73cf73e3ad790991df7d9b"
+  "sha256": "d0d694dda078ae12d67f4772a9ad84ab9339d64a71ff083c3b579a32fa42398b"
 }
