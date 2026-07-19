@@ -1,50 +1,38 @@
-# JustHubLinks
+# JustHubRelease
 
-Repositório público para hospedar links e arquivos customizados usados pelo JustHub.
+Repositório público de distribuição do JustHub.
 
-## Uso correto
+## Finalidade
 
-Use este repositório principalmente com **GitHub Releases**.
+Este repositório hospeda o manifesto de atualização e os arquivos públicos necessários para distribuir versões do JustHub.
 
-Não coloque instaladores grandes direto no código do repositório. Para `.exe`, `.msi`, `.zip` ou `.rar`, use a aba **Releases**.
+## Arquivos principais
 
-## Como subir um arquivo customizado
+- `update_info.json`: versão atual, notas, URL do instalador e hash SHA-256.
+- `releases/`: arquivos de distribuição referenciados pelo manifesto.
 
-1. Abra a aba **Releases**.
-2. Clique em **Draft a new release**.
-3. Use uma tag simples, exemplo:
-   - `hailstorm-v1`
-   - `attack-shark-x3-v1`
-   - `delux-m600pro-v1`
-4. Faça upload do arquivo.
-5. Publique a release.
-6. O link final fica neste formato:
+## Fluxo de publicação
 
-```txt
-https://github.com/loveawayss/JustReleases/releases/download/TAG/NOME_DO_ARQUIVO
-```
+1. Validar o build do JustHub.
+2. Gerar o instalador.
+3. Calcular o SHA-256 do arquivo final.
+4. Atualizar `update_info.json`.
+5. Conferir se a URL e o hash correspondem exatamente ao arquivo publicado.
+6. Publicar a versão somente após revisão.
 
-Exemplo:
+## Verificação de integridade
 
-```txt
-https://github.com/loveawayss/JustReleases/releases/download/hailstorm-v1/Hailstorm.zip
-```
+O hash SHA-256 publicado em `update_info.json` deve corresponder ao instalador disponibilizado. Um hash incorreto pode fazer o atualizador rejeitar uma versão válida ou aceitar uma validação inconsistente.
 
-## Uso no JustHub
+## Regras
 
-No `src/privateProfiles.js`, use o link da release como `downloadUrl`:
+- Não incluir secrets, tokens, chaves privadas ou dados pessoais.
+- Não publicar arquivos de teste ou builds sem identificação.
+- Não alterar o manifesto sem atualizar também o arquivo correspondente.
+- Preferir GitHub Releases para instaladores grandes, em vez de mantê-los diretamente no histórico Git.
+- Manter nomes de versões e arquivos consistentes com o JustHub.
 
-```js
-{
-  label: "Hailstorm",
-  downloadType: "direct",
-  downloadUrl: "https://github.com/loveawayss/JustReleases/releases/download/hailstorm-v1/Hailstorm.zip",
-  fileName: "Hailstorm.zip"
-}
-```
+## Links
 
-## Regra
-
-- Apps oficiais continuam usando links oficiais/resolvedores.
-- Este repositório deve ser usado só para arquivos customizados ou arquivos que não têm link direto confiável.
-- Não colocar nada privado, sensível ou pago aqui, porque o repositório é público.
+- Projeto principal: https://github.com/loveawayss/JustReleases
+- Fonte privada/controle de release: https://github.com/loveawayss/JustReleases
