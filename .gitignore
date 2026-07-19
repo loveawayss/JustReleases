@@ -1,0 +1,20 @@
+# Local and build files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Local build artifacts
+dist/
+build/
+node_modules/
