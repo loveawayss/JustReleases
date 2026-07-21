@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "catalogId": "just-releases",
+  "repository": "https://github.com/loveawayss/JustReleases",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "products": [
+    {
+      "id": "justhub",
+      "name": "JustHub",
+      "manifest": "products/justhub.json",
+      "channels": ["stable"]
+    }
+  ]
+}
