@@ -1,36 +1,44 @@
-# JustHubRelease
+# Just Releases
 
-Repositório público de distribuição do JustHub.
+Fonte publica de distribuicao e metadados dos projetos da Just.
 
-## Finalidade
-
-Este repositório hospeda o manifesto de atualização e os arquivos públicos necessários para distribuir versões do JustHub.
+Este repositorio centraliza catalogos, manifestos de atualizacao e links verificaveis para os projetos da Just. Nao inclua segredos, dados pessoais ou builds de teste.
 
 ## Arquivos principais
 
-- `update_info.json`: versão atual, notas, URL do instalador e hash SHA-256.
-- `releases/`: arquivos de distribuição referenciados pelo manifesto.
+- `catalog.json`: indice dos produtos e canais publicados.
+- `products/`: manifesto especifico de cada produto.
+- `update_info.json`: manifesto compativel usado pelo atualizador atual do JustHub.
+- `releases/`: copia legada do instalador mantida durante a transicao.
+- GitHub Releases: local recomendado para os instaladores distribuidos.
 
-## Fluxo de publicação
+## Fluxo de publicacao
 
-1. Validar o build do JustHub.
-2. Gerar o instalador.
-3. Calcular o SHA-256 do arquivo final.
-4. Atualizar `update_info.json`.
-5. Conferir se a URL e o hash correspondem exatamente ao arquivo publicado.
-6. Publicar a versão somente após revisão.
+1. Validar o build do produto.
+2. Gerar o instalador e calcular o SHA-256 do arquivo final.
+3. Criar uma GitHub Release com o instalador como asset.
+4. Atualizar o manifesto do produto, `catalog.json` e, quando aplicavel, `update_info.json`.
+5. Conferir se a URL direta e o hash correspondem exatamente ao asset publicado.
+6. Publicar somente apos revisao.
 
-## Verificação de integridade
+## Links diretos
 
-O hash SHA-256 publicado em `update_info.json` deve corresponder ao instalador disponibilizado. Um hash incorreto pode fazer o atualizador rejeitar uma versão válida ou aceitar uma validação inconsistente.
+Para baixar um asset sem abrir a pagina da Release, use:
+
+`https://github.com/loveawayss/JustReleases/releases/latest/download/<nome-do-arquivo>`
+
+Links `raw.githubusercontent.com` devem ser reservados para manifestos pequenos. Instaladores devem ficar em GitHub Releases.
+
+## Verificacao de integridade
+
+O SHA-256 publicado nos manifestos deve corresponder exatamente ao asset distribuido. Hash sozinho comprova integridade do arquivo, mas nao substitui assinatura digital para autenticar a origem.
 
 ## Regras
 
-- Não incluir secrets, tokens, chaves privadas ou dados pessoais.
-- Não publicar arquivos de teste ou builds sem identificação.
-- Não alterar o manifesto sem atualizar também o arquivo correspondente.
-- Preferir GitHub Releases para instaladores grandes, em vez de mantê-los diretamente no histórico Git.
-- Manter nomes de versões e arquivos consistentes com o JustHub.
+- Nao incluir secrets, tokens, chaves privadas ou dados pessoais.
+- Nao publicar arquivos de teste ou builds sem identificacao.
+- Nao alterar manifesto sem atualizar o arquivo correspondente.
+- Manter nomes de versoes e arquivos consistentes com cada produto.
 
 ## Links
 

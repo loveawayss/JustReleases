@@ -1,4 +1,4 @@
-name: JustHubRelease validation
+name: Just Releases validation
 
 on:
   push:
@@ -11,13 +11,13 @@ permissions:
   contents: read
 
 jobs:
-  validate-manifest:
+  validate-manifests:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Validate update_info.json
+      - name: Validate JSON and URLs
         shell: bash
         run: |
           node - <<'NODE'
@@ -25,7 +25,23 @@ jobs:
           const info = JSON.parse(fs.readFileSync("update_info.json", "utf8"));
           if (!/^\d+\.\d+\.\d+$/.test(info.version)) throw new Error("Invalid version");
           if (!Array.isArray(info.notes)) throw new Error("notes must be an array");
-          if (typeof info.downloadUrl !== "string" || !info.downloadUrl.startsWith("http")) throw new Error("Invalid downloadUrl");
+          if (!info.downloadUrl.startsWith("https://github.com/loveawayss/JustReleases/releases/")) throw new Error("Invalid JustHub URL");
           if (!/^[a-f0-9]{64}$/i.test(info.sha256)) throw new Error("Invalid sha256");
-          console.log("Manifest structure is valid:", info.version);
+          const catalog = JSON.parse(fs.readFileSync("catalog.json", "utf8"));
+          if (catalog.schemaVersion !== 1 || !Array.isArray(catalog.products)) throw new Error("Invalid catalog");
+          for (const product of catalog.products) {
+            if (!product.id || !fs.existsSync(product.manifest)) throw new Error(`Invalid product entry: ${product.id}`);
+            const manifest = JSON.parse(fs.readFileSync(product.manifest, "utf8"));
+            if (manifest.id !== product.id || !/^\d+\.\d+\.\d+$/.test(manifest.version)) throw new Error(`Invalid manifest: ${product.manifest}`);
+            if (!Array.isArray(manifest.artifacts) || manifest.artifacts.length === 0) throw new Error(`No artifacts: ${product.manifest}`);
+            for (const artifact of manifest.artifacts) {
+              if (!artifact.downloadUrl.startsWith("https://github.com/loveawayss/JustReleases/releases/")) throw new Error(`Invalid artifact URL: ${artifact.fileName}`);
+              if (!/^[a-f0-9]{64}$/i.test(artifact.sha256)) throw new Error(`Invalid artifact hash: ${artifact.fileName}`);
+            }
+          }
+          console.log(`Catalog is valid: ${catalog.products.length} product(s)`);
           NODE
+      - name: Validate legacy installer hash
+        shell: bash
+        run: |
+          test "$(sha256sum releases/justhub-setup.exe | cut -d ' ' -f 1)" = "$(node -p 'JSON.parse(require("fs").readFileSync("update_info.json")).sha256')"

@@ -1,32 +1,24 @@
-# Script de Instalação/Atualização Remota do JustHub para o Cliente Final
-# Funciona em qualquer Windows, mesmo recém-formatado (não precisa de Node.js, Rust ou Git)
-
-# Forçar codificação UTF-8 no console para acentos
+# Instalador/atualizador remoto do JustHub para Windows.
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 
-# URL direta do executável instalador no GitHub
-$installerUrl = "https://raw.githubusercontent.com/JustCorporation/JustHubRelease/main/releases/justhub-setup.exe"
-$tempPath = "$env:TEMP\justhub-setup.exe"
+$installerUrl = "https://github.com/loveawayss/JustReleases/releases/latest/download/justhub-setup.exe"
+$expectedSha256 = "14eeb335576ea9116c2de5e99e3b42e5df6b87d819176e940a918fc193795fd1"
+$tempPath = Join-Path $env:TEMP "justhub-setup.exe"
 
-Write-Host "📥 Baixando a versão mais recente do JustHub..." -ForegroundColor Cyan
+Write-Host "Baixando a versao mais recente do JustHub..." -ForegroundColor Cyan
 
 try {
-    # Baixar o instalador direto do link
     Invoke-WebRequest -Uri $installerUrl -OutFile $tempPath -UseBasicParsing
-    
-    if (Test-Path $tempPath) {
-        Write-Host "🚀 Instalando/Atualizando silenciosamente..." -ForegroundColor Green
-        # Executa o instalador em segundo plano com o argumento /S (Silent)
-        $process = Start-Process -FilePath $tempPath -ArgumentList "/S" -PassThru -Wait
-        
-        # Remover instalador temporário
-        Remove-Item $tempPath -ErrorAction SilentlyContinue
-        
-        Write-Host "✅ JustHub instalado e atualizado com sucesso!" -ForegroundColor Green
-    } else {
-        Write-Host "❌ Erro: Falha ao salvar o instalador temporário." -ForegroundColor Red
-    }
+    if (-not (Test-Path -LiteralPath $tempPath)) { throw "Falha ao salvar o instalador temporario." }
+    $actualSha256 = (Get-FileHash -LiteralPath $tempPath -Algorithm SHA256).Hash.ToLowerInvariant()
+    if ($actualSha256 -ne $expectedSha256) { throw "Hash SHA-256 inesperado para o instalador." }
+    Write-Host "Instalando/atualizando silenciosamente..." -ForegroundColor Green
+    $process = Start-Process -FilePath $tempPath -ArgumentList "/S" -PassThru -Wait
+    if ($process.ExitCode -ne 0) { throw "O instalador terminou com o codigo $($process.ExitCode)." }
+    Remove-Item -LiteralPath $tempPath -ErrorAction SilentlyContinue
+    Write-Host "JustHub instalado e atualizado com sucesso!" -ForegroundColor Green
 } catch {
-    Write-Host "❌ Erro ao baixar o JustHub. Verifique sua conexão com a internet." -ForegroundColor Red
-    Write-Host $_.Exception.Message -ForegroundColor Yellow
+    Remove-Item -LiteralPath $tempPath -ErrorAction SilentlyContinue
+    Write-Host "Erro ao baixar ou instalar o JustHub: $($_.Exception.Message)" -ForegroundColor Red
+    exit 1
 }

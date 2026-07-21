@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "justhub",
+  "name": "JustHub",
+  "version": "0.1.82",
+  "channel": "stable",
+  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.82",
+  "notes": [
+    "Corrigidos caminhos de atualizacao automatica para instalacoes de usuario",
+    "Limpeza automatica aprimorada de atalhos e pastas antigas"
+  ],
+  "artifacts": [
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "fileName": "justhub-setup.exe",
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.82/justhub-setup.exe",
+      "sha256": "14eeb335576ea9116c2de5e99e3b42e5df6b87d819176e940a918fc193795fd1"
+    }
+  ]
+}
