@@ -2,12 +2,18 @@
   "schemaVersion": 1,
   "catalogId": "just-releases",
   "repository": "https://github.com/loveawayss/JustReleases",
-  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T21:30:00.000Z",
   "products": [
     {
       "id": "justhub",
       "name": "JustHub",
       "manifest": "products/justhub.json",
+      "channels": ["stable"]
+    },
+    {
+      "id": "justcleaner",
+      "name": "Just Cleaner",
+      "manifest": "products/justcleaner.json",
       "channels": ["stable"]
     }
   ]
