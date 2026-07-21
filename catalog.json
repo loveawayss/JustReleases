@@ -6,7 +6,7 @@
   "products": [
     {
       "id": "justhub",
-      "name": "JustHub",
+      "name": "Just HUB",
       "manifest": "products/justhub.json",
       "channels": ["stable"]
     },
