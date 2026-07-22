@@ -1,22 +1,22 @@
 {
-  "schemaVersion": 1,
-  "id": "justhub",
-  "name": "Just HUB",
-  "version": "0.1.84",
-  "channel": "stable",
-  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.84",
-  "notes": [
-    "Custom Resolution Utility agora usa o download oficial atualizado",
-    "DPC Latency agora abre a página oficial do fabricante",
-    "Removidos downloads antigos hospedados no repositório de distribuição"
-  ],
-  "artifacts": [
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "fileName": "justhub-setup.exe",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.84/justhub-setup.exe",
-      "sha256": "8dc499f88614a9f1131f1d23aec97b60f38ac5a97e3abce8e435b0a507067070"
-    }
-  ]
-}
+    "schemaVersion":  1,
+    "id":  "justhub",
+    "name":  "Just HUB",
+    "version":  "0.1.85",
+    "channel":  "stable",
+    "releaseUrl":  "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.85",
+    "notes":  [
+                  "Custom Resolution Utility agora usa o download oficial atualizado",
+                  "DPC Latency agora abre a página oficial do fabricante",
+                  "Removidos downloads antigos hospedados no repositório de distribuição"
+              ],
+    "artifacts":  [
+                      {
+                          "platform":  "windows",
+                          "architecture":  "x64",
+                          "fileName":  "justhub-setup.exe",
+                          "downloadUrl":  "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.85/justhub-setup.exe",
+                          "sha256":  "279832cdbb0ecf27ebe0f4b62c6dbf31b959dd915934fd587dba1a1999a35382"
+                      }
+                  ]
+}`n
