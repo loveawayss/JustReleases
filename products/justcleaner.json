@@ -2,27 +2,27 @@
   "schemaVersion": 1,
   "id": "justcleaner",
   "name": "Just Cleaner",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "channel": "stable",
-  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justcleaner-v0.1.0",
+  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justcleaner-v1.0.0",
   "notes": [
-    "Primeira distribuicao publica do Just Cleaner",
-    "Novo icone de limpeza e otimizacao do sistema"
+    "Versao 1.0.0 do Just Cleaner",
+    "Icone aprovado do Just Cleaner aplicado aos instaladores"
   ],
   "artifacts": [
     {
       "platform": "windows",
       "architecture": "x64",
       "fileName": "JustCleaner-setup.exe",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justcleaner-v0.1.0/JustCleaner-setup.exe",
-      "sha256": "8b4e59f8d5160d23652499cf594bd38512235c30311e480bebe89f18efe1b94c"
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justcleaner-v1.0.0/JustCleaner-setup.exe",
+      "sha256": "dd7e5db0de5920f0c6a81c8a5088023d2f46055522edc03569080dba0d6f5b49"
     },
     {
       "platform": "windows",
       "architecture": "x64",
       "fileName": "JustCleaner.msi",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justcleaner-v0.1.0/JustCleaner.msi",
-      "sha256": "d2dacc8684249486b47184abe168bc4c066cb52f0f3fb70c3f266343074c1532"
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justcleaner-v1.0.0/JustCleaner.msi",
+      "sha256": "61ca4f8f3db9a6d20dbd2f0390894bd4612f99a120f1aae55e13206f2fc02b13"
     }
   ]
 }
