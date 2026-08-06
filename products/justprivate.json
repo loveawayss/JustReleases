@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "justprivate",
+  "name": "JustPrivate",
+  "version": "3.0.0",
+  "channel": "stable",
+  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justprivate-v0.1.1",
+  "notes": [
+    "Distribuicao oficial do JustPrivate.",
+    "Catalogo remoto autorizado por licenca e HWID.",
+    "Actions HKCU com Apply, Verify e Revert offline por snapshot local.",
+    "Instalador sem assinatura digital: o Windows ou SmartScreen pode mostrar um aviso de reputacao para arquivo novo."
+  ],
+  "artifacts": [
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "fileName": "JustPrivate.exe",
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v0.1.1/JustPrivate.exe",
+      "sha256": "81ec40ca4faab5774245490f25a33deafed03d058b3bc1e12e99a2edd009e3c7"
+    }
+  ]
+}
