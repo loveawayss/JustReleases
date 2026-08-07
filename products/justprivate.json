@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "id": "justprivate",
   "name": "JustPrivate",
-  "version": "3.0.1",
+  "version": "3.0.3",
   "channel": "stable",
-  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justprivate-v3.0.1",
+  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justprivate-v3.0.3",
   "notes": [
     "Distribuicao oficial do JustPrivate.",
     "Catalogo remoto autorizado por licenca e HWID.",
@@ -17,8 +17,8 @@
       "platform": "windows",
       "architecture": "x64",
       "fileName": "JustPrivate.exe",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.1/JustPrivate.exe",
-      "sha256": "5df00d01d60a55ab80a665a7dd4e3c98f263fc15afedc8dd96c2cb21f6cdfdd2"
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.3/JustPrivate.exe",
+      "sha256": "804f9a651190d112a89ffd1c0e156beb1f4dc88be179da28cca0019f5cf20d24"
     }
   ]
 }
