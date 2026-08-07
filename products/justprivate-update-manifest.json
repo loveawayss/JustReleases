@@ -1,14 +1,14 @@
 ﻿{
     "product":  "JustPrivate",
     "channel":  "stable",
-    "latestVersion":  "3.0.2",
+    "latestVersion":  "3.0.3",
     "minimumSupportedVersion":  "3.0.1",
     "mandatory":  false,
-    "assetName":  "JustPrivate-update-3.0.2.zip",
-    "downloadUrl":  "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.2/JustPrivate-update-3.0.2.zip",
-    "sha256":  "e4523676796bebe9e9092b428efa5bb79a370b24cf087c17a7ea2acababeeabb",
-    "releaseNotesUrl":  "https://github.com/loveawayss/JustReleases/releases/tag/justprivate-v3.0.2",
-    "publishedAt":  "2026-08-07T20:01:41.2393863+00:00",
+    "assetName":  "JustPrivate-update-3.0.3.zip",
+    "downloadUrl":  "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.3/JustPrivate-update-3.0.3.zip",
+    "sha256":  "a0cd8908ba1f8c6c37552ea974e3d5faf4bb9247d08d29db82111ac670db1e83",
+    "releaseNotesUrl":  "https://github.com/loveawayss/JustReleases/releases/tag/justprivate-v3.0.3",
+    "publishedAt":  "2026-08-07T21:52:45.2103306+00:00",
     "rollout":  {
                     "percentage":  100
                 }
