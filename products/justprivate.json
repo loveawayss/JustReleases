@@ -1,24 +1,24 @@
-{
-  "schemaVersion": 1,
-  "id": "justprivate",
-  "name": "JustPrivate",
-  "version": "3.0.3",
-  "channel": "stable",
-  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justprivate-v3.0.3",
-  "notes": [
-    "Distribuicao oficial do JustPrivate.",
-    "Catalogo remoto autorizado por licenca e HWID.",
-    "Actions HKCU com Apply, Verify e Revert offline por snapshot local.",
-    "Instalador sem assinatura digital: o Windows ou SmartScreen pode mostrar um aviso de reputacao para arquivo novo.",
-    "Atualizacoes futuras exigem manifesto publico assinado e ZIP com hash validado."
-  ],
-  "artifacts": [
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "fileName": "JustPrivate.exe",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.3/JustPrivate.exe",
-      "sha256": "804f9a651190d112a89ffd1c0e156beb1f4dc88be179da28cca0019f5cf20d24"
-    }
-  ]
+﻿{
+    "schemaVersion":  1,
+    "id":  "justprivate",
+    "name":  "JustPrivate",
+    "version":  "3.0.7",
+    "channel":  "stable",
+    "releaseUrl":  "https://github.com/loveawayss/JustReleases/releases/tag/justprivate-v3.0.7",
+    "notes":  [
+                  "Distribuicao oficial do JustPrivate 3.0.7.",
+                  "Catalogo remoto autorizado por licenca e HWID.",
+                  "Actions HKCU com Apply, Verify e Revert offline por snapshot local.",
+                  "Instalador sem assinatura digital: o Windows ou SmartScreen pode mostrar um aviso de reputacao para arquivo novo.",
+                  "Atualizacoes futuras exigem manifesto publico assinado e ZIP com hash validado."
+              ],
+    "artifacts":  [
+                      {
+                          "platform":  "windows",
+                          "architecture":  "x64",
+                          "fileName":  "JustPrivate.exe",
+                          "downloadUrl":  "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.7/JustPrivate.exe",
+                          "sha256":  "1c115d5b2ad47f7831e1217f2791b42c4fb054befb58204dd4b6013311e90d0e"
+                      }
+                  ]
 }
