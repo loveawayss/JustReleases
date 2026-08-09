@@ -2,11 +2,11 @@
     "schemaVersion":  1,
     "id":  "justprivate",
     "name":  "JustPrivate",
-    "version":  "3.0.9",
+    "version":  "3.0.10",
     "channel":  "stable",
-    "releaseUrl":  "https://github.com/loveawayss/JustReleases/releases/tag/justprivate-v3.0.9",
+    "releaseUrl":  "https://github.com/loveawayss/JustReleases/releases/tag/justprivate-v3.0.10",
     "notes":  [
-                  "Distribuicao oficial do JustPrivate 3.0.9.",
+                  "Distribuicao oficial do JustPrivate 3.0.10.",
                   "O painel Private preserva a organizacao historica e usa uma apresentacao dark-first acessivel.",
                   "Atualizacoes validadas sao obrigatorias; falhas de rede ou validacao permanecem nao-bloqueantes.",
                   "Download e aplicacao continuam protegidos por licenca e fluxo transacional.",
@@ -18,8 +18,8 @@
                           "platform":  "windows",
                           "architecture":  "x64",
                           "fileName":  "JustPrivate.exe",
-                          "downloadUrl":  "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.9/JustPrivate.exe",
-                          "sha256":  "BEB657C23234AA25AE6A5F66CD11E3F298FF102A008CD3DB84E13BEA3185496D"
+                          "downloadUrl":  "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.10/JustPrivate.exe",
+                          "sha256":  "8252DA43B2434796AA8D87C35DD697459E11892323A3E97297734775BFD7219C"
                       }
                   ]
 }
