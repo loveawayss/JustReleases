@@ -2,12 +2,13 @@
     "schemaVersion":  1,
     "id":  "justprivate",
     "name":  "JustPrivate",
-    "version":  "3.0.8",
+    "version":  "3.0.9",
     "channel":  "stable",
-    "releaseUrl":  "https://github.com/loveawayss/JustReleases/releases/tag/justprivate-v3.0.8",
+    "releaseUrl":  "https://github.com/loveawayss/JustReleases/releases/tag/justprivate-v3.0.9",
     "notes":  [
-                  "Distribuicao oficial do JustPrivate 3.0.8.",
-                  "Descoberta de update read-only funciona para instalacoes legadas sem licenca ativa.",
+                  "Distribuicao oficial do JustPrivate 3.0.9.",
+                  "O painel Private preserva a organizacao historica e usa uma apresentacao dark-first acessivel.",
+                  "Atualizacoes validadas sao obrigatorias; falhas de rede ou validacao permanecem nao-bloqueantes.",
                   "Download e aplicacao continuam protegidos por licenca e fluxo transacional.",
                   "Instalador sem assinatura digital: o Windows ou SmartScreen pode mostrar um aviso de reputacao para arquivo novo.",
                   "Atualizacoes futuras exigem manifesto publico assinado e ZIP com hash validado."
@@ -17,8 +18,8 @@
                           "platform":  "windows",
                           "architecture":  "x64",
                           "fileName":  "JustPrivate.exe",
-                          "downloadUrl":  "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.8/JustPrivate.exe",
-                          "sha256":  "9e63df0f3fbcf5c3d44cfb69fdff31b915ba938810f3b1bf774019c2b79b6948"
+                          "downloadUrl":  "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.9/JustPrivate.exe",
+                          "sha256":  "BEB657C23234AA25AE6A5F66CD11E3F298FF102A008CD3DB84E13BEA3185496D"
                       }
                   ]
 }
