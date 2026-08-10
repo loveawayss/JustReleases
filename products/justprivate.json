@@ -1,25 +1,31 @@
 {
-    "schemaVersion":  1,
-    "id":  "justprivate",
-    "name":  "JustPrivate",
-    "version":  "3.0.12",
-    "channel":  "stable",
-    "releaseUrl":  "https://github.com/loveawayss/JustReleases/releases/tag/justprivate-v3.0.12",
-    "notes":  [
-                  "Distribuicao oficial do JustPrivate 3.0.12.",
-                  "O painel Private preserva a organizacao historica e usa uma apresentacao dark-first acessivel.",
-                  "Atualizacoes validadas sao obrigatorias; falhas de rede ou validacao permanecem nao-bloqueantes.",
-                  "Download e aplicacao continuam protegidos por licenca e fluxo transacional.",
-                  "Instalador sem assinatura digital: o Windows ou SmartScreen pode mostrar um aviso de reputacao para arquivo novo.",
-                  "Atualizacoes futuras exigem manifesto publico assinado e ZIP com hash validado."
-              ],
-    "artifacts":  [
-                      {
-                          "platform":  "windows",
-                          "architecture":  "x64",
-                          "fileName":  "JustPrivate.exe",
-                          "downloadUrl":  "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.12/JustPrivate.exe",
-                          "sha256":  "C4E3404A7C2F29844F00E08505D9D719BDAAB18BB6A5EF0A015AF86C5814EEDF"
-                      }
-                  ]
+  "schemaVersion": 1,
+  "id": "justprivate",
+  "name": "JustPrivate",
+  "version": "3.0.13",
+  "channel": "stable",
+  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justprivate-v3.0.13",
+  "notes": [
+    "Distribuicao oficial do JustPrivate 3.0.13.",
+    "A navegacao do painel reutiliza o catalogo remoto sem remounts ou refetches a cada troca de categoria.",
+    "Atualizacoes validadas sao obrigatorias; falhas de rede ou validacao permanecem nao-bloqueantes.",
+    "Download e aplicacao continuam protegidos por licenca, assinatura, hash, canal e fluxo transacional.",
+    "Instalador sem assinatura digital: o Windows ou SmartScreen pode mostrar um aviso de reputacao para arquivo novo."
+  ],
+  "artifacts": [
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "fileName": "JustPrivate.exe",
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.13/JustPrivate.exe",
+      "sha256": "e6fd4476d152cf32dd2c388afe37d0d134c62d979514aecfdf9903135527edab"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "fileName": "JustPrivate-update-3.0.13-full.zip",
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.13/JustPrivate-update-3.0.13-full.zip",
+      "sha256": "78ad93d99ff914ca0b0a0ffe9b072b504b55cf7f4cb84d276f7093748a90162b"
+    }
+  ]
 }
