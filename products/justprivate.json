@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "id": "justprivate",
   "name": "JustPrivate",
-  "version": "3.0.13",
+  "version": "3.0.24",
   "channel": "stable",
-  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justprivate-v3.0.13",
+  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justprivate-v3.0.24",
   "notes": [
-    "Distribuicao oficial do JustPrivate 3.0.13.",
+    "Distribuicao oficial do JustPrivate 3.0.24.",
     "A navegacao do painel reutiliza o catalogo remoto sem remounts ou refetches a cada troca de categoria.",
     "Atualizacoes validadas sao obrigatorias; falhas de rede ou validacao permanecem nao-bloqueantes.",
     "Download e aplicacao continuam protegidos por licenca, assinatura, hash, canal e fluxo transacional.",
@@ -17,15 +17,15 @@
       "platform": "windows",
       "architecture": "x64",
       "fileName": "JustPrivate.exe",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.13/JustPrivate.exe",
-      "sha256": "e6fd4476d152cf32dd2c388afe37d0d134c62d979514aecfdf9903135527edab"
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.24/JustPrivate.exe",
+      "sha256": "b4523352013541e3f31a83b39454ff870402baaabcb19a361930c09023d3603d"
     },
     {
       "platform": "windows",
       "architecture": "x64",
-      "fileName": "JustPrivate-update-3.0.13-full.zip",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.13/JustPrivate-update-3.0.13-full.zip",
-      "sha256": "78ad93d99ff914ca0b0a0ffe9b072b504b55cf7f4cb84d276f7093748a90162b"
+      "fileName": "JustPrivate-update-3.0.24-full.zip",
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.24/JustPrivate-update-3.0.24-full.zip",
+      "sha256": "551d98147bafd0ca621c7b3427f9c62a9532d343dcfbbfde7e13f18a9ba9e777"
     }
   ]
 }
