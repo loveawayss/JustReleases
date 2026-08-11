@@ -42,6 +42,5 @@ O SHA-256 publicado nos manifestos deve corresponder exatamente ao asset distrib
 
 ## Links
 
-- Projeto principal: https://github.com/loveawayss/JustHub
-- Fonte privada/controle de release: https://github.com/loveawayss/JustPrivate
-- Download publico do JustPrivate: https://github.com/loveawayss/JustReleases/releases/latest
+- Download publico das Releases: https://github.com/loveawayss/JustReleases/releases/latest
+

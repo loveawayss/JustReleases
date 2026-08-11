@@ -1,7 +1,7 @@
 {
   "name": "JustHub Custom Downloads",
   "updatedAt": "2026-06-22T00:00:00.000Z",
-  "repository": "https://github.com/loveawayss/JustHubLinks",
+  "repository": "https://github.com/loveawayss/JustReleases",
   "notes": "Use GitHub Releases para hospedar arquivos customizados. Depois substitua os campos pending por links diretos de release.",
   "downloads": {
     "hailstorm": {
