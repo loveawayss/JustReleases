@@ -6,9 +6,9 @@
     "mandatory":  true,
     "assetName":  "JustPrivate-update-3.0.26-full.zip",
     "downloadUrl":  "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.26/JustPrivate-update-3.0.26-full.zip",
-    "sha256":  "27f958de2ffc44b67d39fa2adefcf8fe09247b9f2d7945387e038e42869ff294",
+    "sha256":  "afbb6855ed53273cc51d6cc92ede2ee368927ab8a047a4cc4eddae7e8183f661",
     "releaseNotesUrl":  "https://github.com/loveawayss/JustReleases/releases/tag/justprivate-v3.0.26",
-    "publishedAt":  "2026-08-13T20:40:09.2988243+00:00",
+    "publishedAt":  "2026-08-14T19:49:02.5581102+00:00",
     "rollout":  {
                     "percentage":  100
                 }
