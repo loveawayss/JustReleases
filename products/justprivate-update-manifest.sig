@@ -1,7 +1,7 @@
 {
   "signatureAlgorithm": "ECDSA_P256_SHA256",
   "signatureKeyId": "justprivate-app-update-prod-2026-q3-v2",
-  "signature": "ghkjXo8ol1bY6bUUnsRFBar7qvGSjcAJzlX\u002BVKQ9vsFFyBbdYduw2\u002B7lnlbx/n61ODjcI54FbuZZ6e7lBREaeA==",
-  "canonicalSha256": "1fb1dd824b4fc3b9d007bdf373dfc558d593852f288d70d73f212ad331d18734",
-  "signedAt": "2026-08-13T20:45:08.118022+00:00"
+  "signature": "MsdoyOV6P7ZSOMGRVbTH70v176Bry4eOMyEqd2BydaIfFuHw\u002B6qYpHRKx\u002BGi\u002BDL4WAHUK47lknUHdXoFqtpEtA==",
+  "canonicalSha256": "985c32009bbfd159aabcb11e868deb3e5116c9990b422011ac6efdb6e9a04834",
+  "signedAt": "2026-08-14T19:49:09.8157092+00:00"
 }
