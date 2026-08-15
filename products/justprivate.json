@@ -2,24 +2,24 @@
     "schemaVersion":  1,
     "id":  "justprivate",
     "name":  "JustPrivate",
-    "version":  "3.0.26",
+    "version":  "3.0.28",
     "channel":  "stable",
-    "releaseUrl":  "https://github.com/loveawayss/JustReleases/releases/tag/justprivate-v3.0.26",
-    "notes":  "Distribuicao oficial do JustPrivate 3.0.26.",
+    "releaseUrl":  "https://github.com/loveawayss/JustReleases/releases/tag/justprivate-v3.0.28",
+    "notes":  "Distribuicao oficial do JustPrivate 3.0.28.",
     "artifacts":  [
                       {
                           "platform":  "windows",
                           "architecture":  "x64",
                           "fileName":  "JustPrivate.exe",
-                          "downloadUrl":  "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.26/JustPrivate.exe",
-                          "sha256":  "eb971b7194fd621f652d86c0f5eeb23c2e8efcb51840e2954bba3509ca83c329"
+                          "downloadUrl":  "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.28/JustPrivate.exe",
+                          "sha256":  "0a2334e186dd697a470bc2d3caf2ffd6bb7aa458f50fcd3339c83cf944f09401"
                       },
                       {
                           "platform":  "windows",
                           "architecture":  "x64",
-                          "fileName":  "JustPrivate-update-3.0.26-full.zip",
-                          "downloadUrl":  "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.26/JustPrivate-update-3.0.26-full.zip",
-                          "sha256":  "afbb6855ed53273cc51d6cc92ede2ee368927ab8a047a4cc4eddae7e8183f661"
+                          "fileName":  "JustPrivate-update-3.0.28-full.zip",
+                          "downloadUrl":  "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.28/JustPrivate-update-3.0.28-full.zip",
+                          "sha256":  "7ed604ca79d2732341cbcf68d55b7ca1d3858efbc3c62257df2ab80498802a88"
                       }
                   ]
 }
