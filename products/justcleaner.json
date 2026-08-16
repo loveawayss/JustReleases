@@ -2,6 +2,7 @@
   "schemaVersion": 1,
   "id": "justcleaner",
   "name": "Just Cleaner",
+  "version": "1.0.0",
   "channel": "stable",
   "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justcleaner",
   "notes": [
