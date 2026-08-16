@@ -69,4 +69,4 @@ jobs:
       - name: Validate legacy installer hash
         shell: bash
         run: |
-          test "$(sha256sum releases/justhub-setup.exe | cut -d ' ' -f 1)" = "$(node -p 'JSON.parse(require("fs").readFileSync("update_info.json")).sha256')"
+          test "$(sha256sum releases/JustHubInstaller.exe | cut -d ' ' -f 1)" = "$(node -p 'JSON.parse(require("fs").readFileSync("update_info.json")).sha256')"
