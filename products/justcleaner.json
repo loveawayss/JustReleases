@@ -2,33 +2,21 @@
   "schemaVersion": 1,
   "id": "justcleaner",
   "name": "Just Cleaner",
-  "version": "1.0.8",
   "channel": "stable",
-  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justcleaner-v1.0.8",
+  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justcleaner",
   "notes": [
-    "Versao 1.0.8 do Just Cleaner",
-    "Limpeza de RAM agora informa sucessos e falhas reais",
-    "Lixeira e Registro passaram a validar erros corretamente",
-    "Limpeza protegida contra links e juncoes do sistema",
-    "Booster sem duplicatas e caminhos do Windows corrigidos",
-    "Lixeira vazia não gera mais falha catastrófica e a limpeza continua nas demais categorias",
-    "Versão exibida na interface corrigida",
-    "Instalador sem assinatura digital"
+    "Release oficial do Just Cleaner",
+    "Limpeza profunda e nativa de memória RAM e arquivos de paginação",
+    "Interface minimalista no padrão nativo do Windows com suporte a modo claro e escuro",
+    "Automação e segundo plano na bandeja do sistema"
   ],
   "artifacts": [
     {
       "platform": "windows",
       "architecture": "x64",
-      "fileName": "JustCleaner-setup.exe",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justcleaner-v1.0.8/JustCleaner-setup.exe",
-      "sha256": "20b21eea728cd388c41ab4e0b7c28c4cdc9ca17c388fc2ef476fad1b0d1db88b"
-    },
-    {
-      "platform": "windows",
-      "architecture": "x64",
-      "fileName": "JustCleaner.msi",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justcleaner-v1.0.8/JustCleaner.msi",
-      "sha256": "5cc03eb12fad801a9dea5a99773ba124c45cb86e09efbfd59e89b25a7b5e0636"
+      "fileName": "JustCleaner.exe",
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justcleaner/JustCleaner.exe",
+      "sha256": "a42a21be27360f1006e24b69db5ef86eb3510b8694e99381e82ebf45f2c14144"
     }
   ]
 }
