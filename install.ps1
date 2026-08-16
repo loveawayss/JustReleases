@@ -2,7 +2,7 @@
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 
 $installerUrl = "https://github.com/loveawayss/JustReleases/releases/latest/download/JustHubInstaller.exe"
-$expectedSha256 = "8040291549b14b512d759394c4910d9653cc9c43c2b9773f7da823e668e2e755"
+$expectedSha256 = "cc5838b1b36e772beebf5fef8a61082d9e7844e88b8a3963999fef9491caa735"
 $tempPath = Join-Path $env:TEMP "JustHubInstaller.exe"
 
 Write-Host "Baixando a versao mais recente do JustHub..." -ForegroundColor Cyan
