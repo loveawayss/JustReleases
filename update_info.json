@@ -1,1 +1,8 @@
-{ "version": "0.1.86", "notes": ["Custom Resolution Utility agora usa o download oficial atualizado", "DPC Latency agora abre a pagina oficial do fabricante", "Removidos downloads antigos hospedados no repositorio de distribuicao"], "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.86/JustHubInstaller.exe", "sha256": "cc5838b1b36e772beebf5fef8a61082d9e7844e88b8a3963999fef9491caa735" }
+{
+  "version": "0.1.87",
+  "notes": [
+    "Profile login reliability: prevents duplicate attempts and shows temporary lock status."
+  ],
+  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.87/JustHubInstaller.exe",
+  "sha256": "bd254c2f5c0060dc2712ef9b437f545d6bf4f2a00634727c76b5c069e05feb2c"
+}
