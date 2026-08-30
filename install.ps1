@@ -1,9 +1,9 @@
 # Instalador/atualizador remoto do JustHub para Windows.
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 
-$installerUrl = "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.87/JustHubInstaller.exe"
+$installerUrl = "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.87/JustHUBInstaller.exe"
 $expectedSha256 = "bd254c2f5c0060dc2712ef9b437f545d6bf4f2a00634727c76b5c069e05feb2c"
-$tempPath = Join-Path $env:TEMP "JustHubInstaller.exe"
+$tempPath = Join-Path $env:TEMP "JustHUBInstaller.exe"
 
 Write-Host "Baixando a versao mais recente do JustHub..." -ForegroundColor Cyan
 

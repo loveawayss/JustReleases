@@ -12,8 +12,8 @@
     {
       "platform": "windows",
       "architecture": "x64",
-      "fileName": "JustHubInstaller.exe",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.87/JustHubInstaller.exe",
+      "fileName": "JustHUBInstaller.exe",
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.87/JustHUBInstaller.exe",
       "sha256": "bd254c2f5c0060dc2712ef9b437f545d6bf4f2a00634727c76b5c069e05feb2c"
     }
   ]
