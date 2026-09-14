@@ -2,22 +2,23 @@
   "schemaVersion": 1,
   "id": "justhub",
   "name": "Just HUB",
-  "version": "0.1.88",
+  "version": "0.1.89",
   "channel": "stable",
-  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.88",
+  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.89",
   "notes": [
-    "Aplicativos Just agora ficam integrados ao catálogo de Apps disponíveis.",
-    "Instale, abra, atualize e desinstale Just Private e Just Cleaner pelo Just HUB.",
-    "Logos oficiais dos aplicativos e ícone do Just HUB restaurados.",
-    "Layout da tela inicial corrigido para evitar cartões cortados em janelas menores."
+    "Auditoria e hardening rigoroso de segurança em toda a aplicação.",
+    "Content Security Policy (CSP) ativado contra injeções de script e XSS.",
+    "Prevenção contra execução não autorizada de binários e injeções no PowerShell.",
+    "Proteção de memória (streaming) e neutralização de Directory Traversal em downloads.",
+    "Validação criptográfica de integridade e verificação nativa de Authenticode."
   ],
   "artifacts": [
     {
       "platform": "windows",
       "architecture": "x64",
       "fileName": "JustHUBInstaller.exe",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.88/JustHUBInstaller.exe",
-      "sha256": "e93ab41ea1bdee575a575d73accf817d09200f8f72292ec0ef8f322c4c3f7dce"
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.89/JustHUBInstaller.exe",
+      "sha256": "de7234064ded220e52a2bb62d8a9a4aa97dc634682b8a8f774fa1360107133d8"
     }
   ]
 }
