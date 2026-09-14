@@ -2,24 +2,24 @@
   "schemaVersion": 1,
   "id": "justprivate",
   "name": "JustPrivate",
-  "version": "3.0.38",
+  "version": "3.0.39",
   "channel": "stable",
-  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justprivate-v3.0.38",
+  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justprivate-v3.0.39",
   "notes": "Distribuicao oficial do JustPrivate.",
   "artifacts": [
     {
       "platform": "windows",
       "architecture": "x64",
       "fileName": "JustPrivateInstaller.exe",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.38/JustPrivateInstaller.exe",
-      "sha256": "c3c2fe969e746ed962f2475aaeac37bfd5296658b522198e419c8cd40fd57f40"
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.39/JustPrivateInstaller.exe",
+      "sha256": "187155d74ad85d1e8c2503244f03fd3e3bb799020d8adbfd9ce0698dea939fe0"
     },
     {
       "platform": "windows",
       "architecture": "x64",
-      "fileName": "JustPrivate-update-3.0.38-full.zip",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.38/JustPrivate-update-3.0.38-full.zip",
-      "sha256": "457912bbc05f197977bc70a8ad992edb34a2b8ff27385d0891ea56898c0dcccc"
+      "fileName": "JustPrivate-update-3.0.39-full.zip",
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justprivate-v3.0.39/JustPrivate-update-3.0.39-full.zip",
+      "sha256": "46b7244d94af6c4237ba8755e3a7dc235b2faa55f98050a4be67c21949a7e425"
     }
   ]
 }
