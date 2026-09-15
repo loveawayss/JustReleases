@@ -1,9 +1,14 @@
 # Local and build files
 .DS_Store
 Thumbs.db
+.idea/
+.vscode/
 *.log
 *.tmp
 *.bak
+*.cache
+*.swp
+*.swo
 
 # Secrets and credentials
 .env
@@ -17,7 +22,13 @@ Thumbs.db
 # Local build artifacts
 dist/
 build/
+out/
+coverage/
+test-results/
+.nyc_output/
 node_modules/
+__pycache__/
+*.pyc
 
 # Binary assets (use GitHub Releases instead of Git)
 releases/
