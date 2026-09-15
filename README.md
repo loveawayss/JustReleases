@@ -79,8 +79,8 @@ O Just Private adiciona uma segunda camada: seu manifesto de atualização possu
 assinatura ECDSA P-256 destacada. A aplicação verifica a assinatura, a chave e
 o vínculo com a versão antes de aceitar o pacote.
 
-A CI deste repositório valida a estrutura e a consistência dos metadados. A
-verificação criptográfica completa pertence ao cliente confiável.
+A CI deste repositório e o cliente confiável validam a assinatura
+criptográfica, além da estrutura e da consistência dos metadados.
 
 ## Verificação de integridade
 
@@ -118,7 +118,7 @@ O workflow [`ci.yml`](.github/workflows/ci.yml) verifica:
 - consistência entre catálogo, produtos e artefatos;
 - origem permitida das URLs de download;
 - formato dos hashes SHA-256;
-- formato dos metadados de assinatura do Just Private;
+- assinatura criptográfica ECDSA P-256 do Just Private;
 - padrões conhecidos de segredos e referências privadas.
 
 ## Consumo automatizado
