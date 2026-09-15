@@ -49,7 +49,7 @@ atualização são distribuídos por releases versionadas.
   descreve os artefatos estáveis do Just Private.
 - [`products/justprivate-update-manifest.json`](products/justprivate-update-manifest.json)
   define a política e o pacote de atualização binária do Just Private.
-- [`products/justprivate-update-manifest.json.sig`](products/justprivate-update-manifest.json.sig)
+- [`products/justprivate-update-manifest.sig`](products/justprivate-update-manifest.sig)
   contém a assinatura destacada desse manifesto.
 - [`update_info.json`](update_info.json)
   mantém o endpoint legado de atualização do Just HUB.
