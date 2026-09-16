@@ -1,9 +1,9 @@
 {
-  "version": "0.1.91",
+  "version": "0.1.92",
   "notes": [
-    "Removido do catálogo o DPC Latency Checker, descontinuado pelo fornecedor.",
-    "Limpeza de recursos antigos sem uso e manutenção de estabilidade."
+    "Corrigida a exibição da foto atualizada do perfil administrador.",
+    "Removido o botão permanente de nova tentativa em Aplicativos Just."
   ],
-  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.91/JustHUBInstaller.exe",
-  "sha256": "2e37556a96e3d68987f437bcda4b90232a83116a6e1023cff6c4eed76d502a72"
+  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.92/JustHUBInstaller.exe",
+  "sha256": "8bd83fb83d4b417aa284f92d9dbd4474c93d14d3563067535a7f2cd3807ab582"
 }
