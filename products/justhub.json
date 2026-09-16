@@ -2,19 +2,20 @@
   "schemaVersion": 1,
   "id": "justhub",
   "name": "Just HUB",
-  "version": "0.1.93",
+  "version": "0.1.94",
   "channel": "stable",
-  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.93",
+  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.94",
   "notes": [
-    "Corrigida a validação de atualização quando o GitHub ainda entrega uma cópia anterior do manifesto."
+    "Adicionada chave de acesso para proteger a área de perfis privados.",
+    "Administrador pode gerar e renovar as chaves de acesso e recuperação."
   ],
   "artifacts": [
     {
       "platform": "windows",
       "architecture": "x64",
       "fileName": "JustHUBInstaller.exe",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.93/JustHUBInstaller.exe",
-      "sha256": "efa606f160cd277a2c87013eb47b8d7036284f8b109f4b57826b0c6db26fd798"
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.94/JustHUBInstaller.exe",
+      "sha256": "8ac4543da729bcb39d0c2aaafa48e85578c0896699c0b492e8c974160f5313a3"
     }
   ]
 }
