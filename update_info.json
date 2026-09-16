@@ -1,11 +1,9 @@
 {
-  "version": "0.1.90",
+  "version": "0.1.91",
   "notes": [
-    "Validação reforçada de manifestos, URLs e downloads externos.",
-    "Atualizador com verificação SHA-256 obrigatória antes da execução.",
-    "Proteções adicionais na API de perfis e nos fluxos de arquivos locais.",
-    "Senha mínima mantida em cinco caracteres."
+    "Removido do catálogo o DPC Latency Checker, descontinuado pelo fornecedor.",
+    "Limpeza de recursos antigos sem uso e manutenção de estabilidade."
   ],
-  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.90/JustHUBInstaller.exe",
-  "sha256": "a0d1b291b7044253f14078d7d1d6a9861322b7b9345b8cd60c611bd1ed76bdd6"
+  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.91/JustHUBInstaller.exe",
+  "sha256": "2e37556a96e3d68987f437bcda4b90232a83116a6e1023cff6c4eed76d502a72"
 }
