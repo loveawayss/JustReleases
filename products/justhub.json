@@ -2,20 +2,19 @@
   "schemaVersion": 1,
   "id": "justhub",
   "name": "Just HUB",
-  "version": "0.1.92",
+  "version": "0.1.93",
   "channel": "stable",
-  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.92",
+  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.93",
   "notes": [
-    "Corrigida a exibição da foto atualizada do perfil administrador.",
-    "Removido o botão permanente de nova tentativa em Aplicativos Just."
+    "Corrigida a validação de atualização quando o GitHub ainda entrega uma cópia anterior do manifesto."
   ],
   "artifacts": [
     {
       "platform": "windows",
       "architecture": "x64",
       "fileName": "JustHUBInstaller.exe",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.92/JustHUBInstaller.exe",
-      "sha256": "8bd83fb83d4b417aa284f92d9dbd4474c93d14d3563067535a7f2cd3807ab582"
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.93/JustHUBInstaller.exe",
+      "sha256": "efa606f160cd277a2c87013eb47b8d7036284f8b109f4b57826b0c6db26fd798"
     }
   ]
 }
