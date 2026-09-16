@@ -1,12 +1,11 @@
 {
-  "version": "0.1.89",
+  "version": "0.1.90",
   "notes": [
-    "Auditoria e hardening rigoroso de segurança em toda a aplicação.",
-    "Content Security Policy (CSP) ativado contra injeções de script e XSS.",
-    "Prevenção contra execução não autorizada de binários e injeções no PowerShell.",
-    "Proteção de memória (streaming) e neutralização de Directory Traversal em downloads.",
-    "Validação criptográfica de integridade e verificação nativa de Authenticode."
+    "Validação reforçada de manifestos, URLs e downloads externos.",
+    "Atualizador com verificação SHA-256 obrigatória antes da execução.",
+    "Proteções adicionais na API de perfis e nos fluxos de arquivos locais.",
+    "Senha mínima mantida em cinco caracteres."
   ],
-  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.89/JustHUBInstaller.exe",
-  "sha256": "de7234064ded220e52a2bb62d8a9a4aa97dc634682b8a8f774fa1360107133d8"
+  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.90/JustHUBInstaller.exe",
+  "sha256": "a0d1b291b7044253f14078d7d1d6a9861322b7b9345b8cd60c611bd1ed76bdd6"
 }
