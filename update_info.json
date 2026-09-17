@@ -1,9 +1,9 @@
 {
-  "version": "0.1.94",
+  "version": "0.1.95",
   "notes": [
-    "Adicionada chave de acesso para proteger a área de perfis privados.",
-    "Administrador pode gerar e renovar as chaves de acesso e recuperação."
+    "Proteção adicional para leituras públicas dos perfis privados.",
+    "Downloads de terceiros usam fontes oficiais atualizáveis e não executam instaladores automaticamente."
   ],
-  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.94/JustHUBInstaller.exe",
-  "sha256": "8ac4543da729bcb39d0c2aaafa48e85578c0896699c0b492e8c974160f5313a3"
+  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.95/JustHUBInstaller.exe",
+  "sha256": "80fd50012c1ba8fdb609528eeba3762ddd67fefc7d8580a08f5b55290709ebc6"
 }
