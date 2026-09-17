@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "id": "justhub",
   "name": "Just HUB",
-  "version": "0.1.97",
+  "version": "0.1.98",
   "channel": "stable",
-  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.97",
+  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.98",
   "notes": [
-    "Entrada mais rápida nos perfis privados ao retornar no mesmo aplicativo.",
-    "O acesso continua validado no servidor e cada perfil mantém sua senha individual."
+    "Corrigida a rejeição da atualização quando o manifesto oficial ainda apresenta a versão anterior.",
+    "O instalador continua sujeito à verificação de origem e SHA-256 antes da execução."
   ],
   "artifacts": [
     {
       "platform": "windows",
       "architecture": "x64",
       "fileName": "JustHUBInstaller.exe",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.97/JustHUBInstaller.exe",
-      "sha256": "2116418011bec1262408427ffeaf340bfd799ee9321565b381e731c3748c5353"
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.98/JustHUBInstaller.exe",
+      "sha256": "36503a85c5706327d814ce2462882b5a1b952b47f9e0a15d56c405ab4b050f5a"
     }
   ]
 }
