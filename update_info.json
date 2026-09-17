@@ -1,9 +1,9 @@
 {
-  "version": "0.1.95",
+  "version": "0.1.96",
   "notes": [
-    "Proteção adicional para leituras públicas dos perfis privados.",
-    "Downloads de terceiros usam fontes oficiais atualizáveis e não executam instaladores automaticamente."
+    "Este computador pode lembrar o acesso à área de perfis privados após a validação da chave global.",
+    "A senha individual de cada perfil continua obrigatória. A rotação da chave revoga os computadores lembrados."
   ],
-  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.95/JustHUBInstaller.exe",
-  "sha256": "80fd50012c1ba8fdb609528eeba3762ddd67fefc7d8580a08f5b55290709ebc6"
+  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.96/JustHUBInstaller.exe",
+  "sha256": "fb54cd266b5c5e7847de1c6847c1d79ee77ec44d71c55a06c60a6e7e7d4d271e"
 }
