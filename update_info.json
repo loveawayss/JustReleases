@@ -1,9 +1,9 @@
 {
-  "version": "0.1.96",
+  "version": "0.1.97",
   "notes": [
-    "Este computador pode lembrar o acesso à área de perfis privados após a validação da chave global.",
-    "A senha individual de cada perfil continua obrigatória. A rotação da chave revoga os computadores lembrados."
+    "Entrada mais rápida nos perfis privados ao retornar no mesmo aplicativo.",
+    "O acesso continua validado no servidor e cada perfil mantém sua senha individual."
   ],
-  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.96/JustHUBInstaller.exe",
-  "sha256": "fb54cd266b5c5e7847de1c6847c1d79ee77ec44d71c55a06c60a6e7e7d4d271e"
+  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.97/JustHUBInstaller.exe",
+  "sha256": "2116418011bec1262408427ffeaf340bfd799ee9321565b381e731c3748c5353"
 }
