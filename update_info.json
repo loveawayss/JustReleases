@@ -1,9 +1,8 @@
 {
-  "version": "0.1.98",
+  "version": "0.1.99",
   "notes": [
-    "Corrigida a rejeição da atualização quando o manifesto oficial ainda apresenta a versão anterior.",
-    "O instalador continua sujeito à verificação de origem e SHA-256 antes da execução."
+    "Simplificada a seleção entre Aplicativos e Aplicativos Just."
   ],
-  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.98/JustHUBInstaller.exe",
-  "sha256": "36503a85c5706327d814ce2462882b5a1b952b47f9e0a15d56c405ab4b050f5a"
+  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.99/JustHUBInstaller.exe",
+  "sha256": "aaf5eeb31996fb42a5ee4fc8b25ccfaaa60d58d2bbde7f7ea539ce3d27120dc1"
 }
