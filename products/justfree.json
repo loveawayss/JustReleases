@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "justfree",
+  "name": "Just Free Tweaks",
+  "version": "1.0.0",
+  "channel": "stable",
+  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justfree-v1.0.0",
+  "notes": [
+    "Lançamento oficial do Just Free Tweaks 1.0.0",
+    "Otimização completa de sistema, redução de latência e ganho de FPS",
+    "Compatibilidade e detecção automática para Windows 10 e Windows 11",
+    "Central de atualizações integrada ao Just Releases e Discord",
+    "Operação 100% nativa em PowerShell 7+ com modo seguro offline"
+  ],
+  "artifacts": [
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "fileName": "JustFreeTweaks.zip",
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justfree-v1.0.0/JustFreeTweaks.zip",
+      "sha256": "d6fe07352a804b46ff23478a372e42518ed1dac96fb5b753d9d0ca5b79fe0715"
+    }
+  ]
+}

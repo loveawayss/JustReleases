@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "catalogId": "just-releases",
   "repository": "https://github.com/loveawayss/JustReleases",
-  "updatedAt": "2026-09-21T03:09:48.000Z",
+  "updatedAt": "2026-09-21T22:28:46.000Z",
   "products": [
     {
       "id": "justhub",
@@ -20,6 +20,12 @@
       "id": "justprivate",
       "name": "JustPrivate",
       "manifest": "products/justprivate.json",
+      "channels": ["stable"]
+    },
+    {
+      "id": "justfree",
+      "name": "Just Free Tweaks",
+      "manifest": "products/justfree.json",
       "channels": ["stable"]
     }
   ]
