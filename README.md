@@ -10,11 +10,12 @@ hashes e políticas de atualização. Instaladores e pacotes são publicados em
 
 ## Produtos
 
-| Produto      | Canal    | Manifesto                     |
-| ------------ | -------- | ----------------------------- |
-| Just HUB     | `stable` | [`justhub.json`][hub]         |
-| Just Cleaner | `stable` | [`justcleaner.json`][cleaner] |
-| Just Private | `stable` | [`justprivate.json`][private] |
+| Produto          | Canal    | Manifesto                     |
+| ---------------- | -------- | ----------------------------- |
+| Just HUB         | `stable` | [`justhub.json`][hub]         |
+| Just Cleaner     | `stable` | [`justcleaner.json`][cleaner] |
+| Just Private     | `stable` | [`justprivate.json`][private] |
+| Just Free Tweaks | `stable` | [`justfree.json`][free]       |
 
 Todos os downloads oficiais são destinados ao Windows x64 e hospedados
 exclusivamente em `loveawayss/JustReleases`.
@@ -72,6 +73,7 @@ privada e [`CONTRIBUTING.md`](CONTRIBUTING.md) antes de propor alterações.
 [ci-badge]: https://github.com/loveawayss/JustReleases/actions/workflows/ci.yml/badge.svg
 [ci-workflow]: https://github.com/loveawayss/JustReleases/actions/workflows/ci.yml
 [cleaner]: products/justcleaner.json
+[free]: products/justfree.json
 [hub]: products/justhub.json
 [private]: products/justprivate.json
 [releases]: https://github.com/loveawayss/JustReleases/releases

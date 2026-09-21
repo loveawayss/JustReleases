@@ -46,6 +46,16 @@ const PRODUCTS = Object.freeze({
       ];
     },
   },
+  justfree: {
+    name: "Just Free Tweaks",
+    manifest: "products/justfree.json",
+    tag(version) {
+      return `justfree-v${version}`;
+    },
+    artifacts(version) {
+      return [{ fileName: "JustFreeTweaks.zip" }];
+    },
+  },
 });
 
 const PRODUCT_FILES = new Set([
@@ -490,5 +500,5 @@ const invokedPath =
 if (invokedPath === import.meta.url) {
   const root = fileURLToPath(new URL("..", import.meta.url));
   validateRepository(root);
-  console.log("Manifest validation passed: 3 products.");
+  console.log("Manifest validation passed: 4 products.");
 }
