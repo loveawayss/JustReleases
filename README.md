@@ -2,7 +2,7 @@
 
 [![Validação do catálogo][ci-badge]][ci-workflow]
 
-Canal oficial de distribuição dos aplicativos Just para Windows x64.
+Único repositório público da Just e canal oficial de distribuição dos aplicativos Just para Windows x64. Os repositórios de código-fonte dos produtos permanecem privados.
 
 Este repositório mantém somente metadados auditáveis: catálogo, manifestos,
 hashes e políticas de atualização. Instaladores e pacotes são publicados em
