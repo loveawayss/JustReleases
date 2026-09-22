@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "id": "justhub",
   "name": "Just HUB",
-  "version": "0.1.100",
+  "version": "0.1.101",
   "channel": "stable",
-  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.100",
+  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.101",
   "notes": [
-    "Ferramentas e Ajustes agora usa uma lista compacta e botões sem brilho."
+    "Just Free Tweaks agora pode ser instalado, atualizado, aberto e removido em Aplicativos Just."
   ],
   "artifacts": [
     {
       "platform": "windows",
       "architecture": "x64",
       "fileName": "JustHUBInstaller.exe",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.100/JustHUBInstaller.exe",
-      "sha256": "fc4c2ad7d3072aa9a075a128a0393e99653a836480caacacde34902e9b3479bf"
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.101/JustHUBInstaller.exe",
+      "sha256": "b346f70e555aca7a7b0d36374e7cba36aa1b6cc48cab89f9ab725e4aff7100db"
     }
   ]
 }
