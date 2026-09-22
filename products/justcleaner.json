@@ -1,23 +1,20 @@
 {
   "schemaVersion": 1,
   "id": "justcleaner",
-  "name": "Just Cleaner",
-  "version": "1.1.0",
+  "name": "Memory Reduct",
+  "version": "1.1.1",
   "channel": "stable",
-  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justcleaner-v1.1.0",
+  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justcleaner-v1.1.1",
   "notes": [
-    "Release oficial do Just Cleaner 1.1.0",
-    "Limpeza profunda e nativa de memória RAM e arquivos de paginação",
-    "Interface minimalista no padrão nativo do Windows com suporte a modo claro e escuro",
-    "Automação e segundo plano na bandeja do sistema"
+    "Memory Reduct com novo ícone branco transparente em todas as superfícies do aplicativo."
   ],
   "artifacts": [
     {
       "platform": "windows",
       "architecture": "x64",
       "fileName": "JustCleanerInstaller.exe",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justcleaner-v1.1.0/JustCleanerInstaller.exe",
-      "sha256": "a2cac8152f24bd0772c28abb6b2728737f6c646269e6c86491c655915641e9dc"
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justcleaner-v1.1.1/JustCleanerInstaller.exe",
+      "sha256": "a44e8a7364e9b8437049b7dc01de734efb31452b8da648f0fa960af30f0b7e93"
     }
   ]
 }

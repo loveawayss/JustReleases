@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "id": "justhub",
   "name": "Just HUB",
-  "version": "0.1.100",
+  "version": "0.1.103",
   "channel": "stable",
-  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.100",
+  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.103",
   "notes": [
-    "Ferramentas e Ajustes agora usa uma lista compacta e botões sem brilho."
+    "Memory Reduct no catálogo de Aplicativos Just com ícone branco transparente."
   ],
   "artifacts": [
     {
       "platform": "windows",
       "architecture": "x64",
       "fileName": "JustHUBInstaller.exe",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.100/JustHUBInstaller.exe",
-      "sha256": "fc4c2ad7d3072aa9a075a128a0393e99653a836480caacacde34902e9b3479bf"
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.103/JustHUBInstaller.exe",
+      "sha256": "852890e0fa1eac546e8d73ccf029d636dfd147fa2897d3efc706d90ba59a487e"
     }
   ]
 }
