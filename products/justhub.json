@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "id": "justhub",
   "name": "Just HUB",
-  "version": "0.1.101",
+  "version": "0.1.102",
   "channel": "stable",
-  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.101",
+  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.102",
   "notes": [
-    "Just Free Tweaks agora pode ser instalado, atualizado, aberto e removido em Aplicativos Just."
+    "Novo ícone oficial do Just Free Tweaks no catálogo de Aplicativos Just."
   ],
   "artifacts": [
     {
       "platform": "windows",
       "architecture": "x64",
       "fileName": "JustHUBInstaller.exe",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.101/JustHUBInstaller.exe",
-      "sha256": "b346f70e555aca7a7b0d36374e7cba36aa1b6cc48cab89f9ab725e4aff7100db"
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.102/JustHUBInstaller.exe",
+      "sha256": "dbdeedb03e50700b322b53cf26c13e063d9a228522303960b7937a124be69e0d"
     }
   ]
 }
