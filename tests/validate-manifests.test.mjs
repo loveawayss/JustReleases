@@ -56,7 +56,7 @@ test("rejects a release path that is not bound to the version", () => {
   const documents = validDocuments();
   const invalid =
     documents.products.justcleaner.artifacts[0].downloadUrl.replace(
-      "justcleaner-v1.1.0",
+      `justcleaner-v${documents.products.justcleaner.version}`,
       "justcleaner-v9.9.9",
     );
   documents.products.justcleaner.artifacts[0].downloadUrl = invalid;

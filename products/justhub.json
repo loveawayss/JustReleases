@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "id": "justhub",
   "name": "Just HUB",
-  "version": "0.1.102",
+  "version": "0.1.103",
   "channel": "stable",
-  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.102",
+  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.103",
   "notes": [
-    "Novo ícone oficial do Just Free Tweaks no catálogo de Aplicativos Just."
+    "Memory Reduct no catálogo de Aplicativos Just com ícone branco transparente."
   ],
   "artifacts": [
     {
       "platform": "windows",
       "architecture": "x64",
       "fileName": "JustHUBInstaller.exe",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.102/JustHUBInstaller.exe",
-      "sha256": "dbdeedb03e50700b322b53cf26c13e063d9a228522303960b7937a124be69e0d"
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.103/JustHUBInstaller.exe",
+      "sha256": "852890e0fa1eac546e8d73ccf029d636dfd147fa2897d3efc706d90ba59a487e"
     }
   ]
 }

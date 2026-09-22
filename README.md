@@ -13,7 +13,7 @@ hashes e políticas de atualização. Instaladores e pacotes são publicados em
 | Produto          | Canal    | Manifesto                     |
 | ---------------- | -------- | ----------------------------- |
 | Just HUB         | `stable` | [`justhub.json`][hub]         |
-| Just Cleaner     | `stable` | [`justcleaner.json`][cleaner] |
+| Memory Reduct    | `stable` | [`justcleaner.json`][cleaner] |
 | Just Private     | `stable` | [`justprivate.json`][private] |
 | Just Free Tweaks | `stable` | [`justfree.json`][free]       |
 

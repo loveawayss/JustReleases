@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "catalogId": "just-releases",
   "repository": "https://github.com/loveawayss/JustReleases",
-  "updatedAt": "2026-09-22T02:29:04.000Z",
+  "updatedAt": "2026-09-22T20:58:34.000Z",
   "products": [
     {
       "id": "justhub",
@@ -12,7 +12,7 @@
     },
     {
       "id": "justcleaner",
-      "name": "Just Cleaner",
+      "name": "Memory Reduct",
       "manifest": "products/justcleaner.json",
       "channels": ["stable"]
     },

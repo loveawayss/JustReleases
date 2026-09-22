@@ -24,7 +24,7 @@ const PRODUCTS = Object.freeze({
     },
   },
   justcleaner: {
-    name: "Just Cleaner",
+    name: "Memory Reduct",
     manifest: "products/justcleaner.json",
     tag(version) {
       return `justcleaner-v${version}`;

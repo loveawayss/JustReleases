@@ -7,7 +7,7 @@ metadados públicos do Just Releases.
 
 - `catalog.json` é o índice dos produtos, canais e manifestos disponíveis.
 - `products/justhub.json` descreve o instalador estável do Just HUB.
-- `products/justcleaner.json` descreve o instalador estável do Just Cleaner.
+- `products/justcleaner.json` descreve o instalador estável do Memory Reduct.
 - `products/justfree.json` descreve o pacote estável do Just Free Tweaks.
 - `products/justprivate.json` descreve o instalador e o pacote de atualização
   estáveis do Just Private.
