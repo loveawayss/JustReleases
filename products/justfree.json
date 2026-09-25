@@ -10,7 +10,7 @@
     "Otimização completa de sistema, redução de latência e ganho de FPS",
     "Compatibilidade e detecção automática para Windows 10 e Windows 11",
     "Central de atualizações integrada ao Just Releases e Discord",
-    "Operação 100% nativa em PowerShell 7+ com modo seguro offline"
+    "Operação 100% nativa em PowerShell 5.1 e 7+ com modo seguro offline"
   ],
   "artifacts": [
     {
@@ -18,7 +18,7 @@
       "architecture": "x64",
       "fileName": "JustFreeTweaks.zip",
       "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justfree-v1.0.0/JustFreeTweaks.zip",
-      "sha256": "bf8ee94ad839d6bd150c6f869532c80bb06d578b9b7fff69dfd460e07c16b2cb"
+      "sha256": "824b5214453da427dcbd189457569e9be2047d341880edb98a813418baa4bcf9"
     }
   ]
 }
