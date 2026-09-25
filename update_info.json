@@ -1,8 +1,8 @@
 {
-  "version": "0.1.106",
+  "version": "0.1.107",
   "notes": [
-    "Corrige a transição para perfis privados, sem exibir uma lista vazia durante o carregamento."
+    "Após baixar um arquivo, mostra apenas o status Baixado, sem botão para abrir a pasta."
   ],
-  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.106/JustHUBInstaller.exe",
-  "sha256": "07f282b9c812415e4c46ff41e91cb3aabae58acd5f5e951d8dcb0bc7f2644573"
+  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.107/JustHUBInstaller.exe",
+  "sha256": "4053fc1af16c37e7a6865b96aa99d67d92d98ff410f1a50cfdac3bdf044e86b1"
 }
