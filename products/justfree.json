@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "id": "justfree",
   "name": "Just Free Tweaks",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "channel": "stable",
-  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justfree-v1.0.2",
+  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justfree-v1.0.3",
   "notes": [
-    "Instalação automática do PowerShell 7 por MSI ou ZIP oficial verificado quando necessário.",
+    "Solicitação automática de administrador em uma única etapa, seguida da instalação do PowerShell 7 quando necessário.",
     "Os ajustes são executados somente no PowerShell 7."
   ],
   "artifacts": [
@@ -14,8 +14,8 @@
       "platform": "windows",
       "architecture": "x64",
       "fileName": "JustFreeTweaks.zip",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justfree-v1.0.2/JustFreeTweaks.zip",
-      "sha256": "f230bb6ef87041de69f7234357640c154ca1f8ead55805862c62402dac77ad51"
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justfree-v1.0.3/JustFreeTweaks.zip",
+      "sha256": "b1bedb40462b91bff3145ee4e569b8e6bb34c842057860ae95e03efe2d7f3b33"
     }
   ]
 }
