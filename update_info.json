@@ -1,10 +1,8 @@
 {
-  "version": "0.1.104",
+  "version": "0.1.105",
   "notes": [
-    "Downloads e instalações dos Aplicativos Just mais estáveis.",
-    "Catálogo e perfis mais acessíveis, com mensagens de erro mais claras.",
-    "Melhorias de segurança e desempenho em atualizações e downloads."
+    "Atualizações internas do React e Vite para manter a compatibilidade do aplicativo."
   ],
-  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.104/JustHUBInstaller.exe",
-  "sha256": "43024ede11a8158b2c798d6ce7958da505bee71ed3ebeef1b3b8678fba212045"
+  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.105/JustHUBInstaller.exe",
+  "sha256": "20c778db05bf0dac7cd7f484ea0135e097d1cf7c8d65af13fc7a217568b46e47"
 }
