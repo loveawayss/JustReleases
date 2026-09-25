@@ -1,8 +1,10 @@
 {
-  "version": "0.1.103",
+  "version": "0.1.104",
   "notes": [
-    "Memory Reduct no catálogo de Aplicativos Just com ícone branco transparente."
+    "Downloads e instalações dos Aplicativos Just mais estáveis.",
+    "Catálogo e perfis mais acessíveis, com mensagens de erro mais claras.",
+    "Melhorias de segurança e desempenho em atualizações e downloads."
   ],
-  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.103/JustHUBInstaller.exe",
-  "sha256": "852890e0fa1eac546e8d73ccf029d636dfd147fa2897d3efc706d90ba59a487e"
+  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.104/JustHUBInstaller.exe",
+  "sha256": "43024ede11a8158b2c798d6ce7958da505bee71ed3ebeef1b3b8678fba212045"
 }
