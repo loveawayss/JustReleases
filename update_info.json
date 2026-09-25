@@ -1,8 +1,8 @@
 {
-  "version": "0.1.105",
+  "version": "0.1.106",
   "notes": [
-    "Atualizações internas do React e Vite para manter a compatibilidade do aplicativo."
+    "Corrige a transição para perfis privados, sem exibir uma lista vazia durante o carregamento."
   ],
-  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.105/JustHUBInstaller.exe",
-  "sha256": "20c778db05bf0dac7cd7f484ea0135e097d1cf7c8d65af13fc7a217568b46e47"
+  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.106/JustHUBInstaller.exe",
+  "sha256": "07f282b9c812415e4c46ff41e91cb3aabae58acd5f5e951d8dcb0bc7f2644573"
 }
