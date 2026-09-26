@@ -1,9 +1,8 @@
 {
-  "version": "0.1.108",
+  "version": "0.1.109",
   "notes": [
-    "Ajustes visuais nos cartões, foco, configurações e logo do DirectX.",
-    "Seção renomeada para Aplicativos e Organizador de Pastas removido."
+    "Mantém a descrição dos perfis privados visível e mostra o carregamento abaixo dela, sem deslocar o cartão."
   ],
-  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.108/JustHUBInstaller.exe",
-  "sha256": "64d6a8adf85f030bd3c34c68d10c2a571ba4460f0360d7dc7e7180e997f86d08"
+  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.109/JustHUBInstaller.exe",
+  "sha256": "2ae260a36b7dba511b3b7ab4768e504a4b9b74eb7489d39dd3650716e3ca5348"
 }
