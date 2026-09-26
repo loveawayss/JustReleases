@@ -2,19 +2,21 @@
   "schemaVersion": 1,
   "id": "justhub",
   "name": "Just HUB",
-  "version": "0.1.109",
+  "version": "0.1.110",
   "channel": "stable",
-  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.109",
+  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.110",
   "notes": [
-    "Mantém a descrição dos perfis privados visível e mostra o carregamento abaixo dela, sem deslocar o cartão."
+    "Adiciona 11 aplicativos ao catálogo.",
+    "Consulta downloads atuais e impede versões fixas no catálogo.",
+    "Corrige downloads do Opera GX, AMD, VLC, DirectX e Razer Synapse."
   ],
   "artifacts": [
     {
       "platform": "windows",
       "architecture": "x64",
       "fileName": "JustHUBInstaller.exe",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.109/JustHUBInstaller.exe",
-      "sha256": "2ae260a36b7dba511b3b7ab4768e504a4b9b74eb7489d39dd3650716e3ca5348"
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.110/JustHUBInstaller.exe",
+      "sha256": "a7fa91ab2a83efb5de613aa1773fea44f65091f0a68b4786bab520f101271be6"
     }
   ]
 }
