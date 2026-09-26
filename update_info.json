@@ -1,8 +1,9 @@
 {
-  "version": "0.1.107",
+  "version": "0.1.108",
   "notes": [
-    "Após baixar um arquivo, mostra apenas o status Baixado, sem botão para abrir a pasta."
+    "Ajustes visuais nos cartões, foco, configurações e logo do DirectX.",
+    "Seção renomeada para Aplicativos e Organizador de Pastas removido."
   ],
-  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.107/JustHUBInstaller.exe",
-  "sha256": "4053fc1af16c37e7a6865b96aa99d67d92d98ff410f1a50cfdac3bdf044e86b1"
+  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.108/JustHUBInstaller.exe",
+  "sha256": "64d6a8adf85f030bd3c34c68d10c2a571ba4460f0360d7dc7e7180e997f86d08"
 }
