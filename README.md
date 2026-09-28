@@ -50,6 +50,7 @@ executar o aplicativo.
 - [`catalog.json`](catalog.json): índice oficial de produtos e canais.
 - [`products/`](products): manifestos de produto e atualização.
 - [`update_info.json`](update_info.json): endpoint legado do Just HUB.
+- [`update_info_signed.json`](update_info_signed.json): endpoint assinado do Just HUB.
 - [`install.ps1`](install.ps1): instalador controlado do Just HUB.
 - [`scripts/`](scripts): validadores usados localmente e na CI.
 - [`tests/`](tests): testes de contrato e segurança.
@@ -60,7 +61,7 @@ publicação está em [`docs/release-process.md`](docs/release-process.md).
 
 ## Segurança e contribuições
 
-O Just HUB protege seu manifesto de atualização com assinatura Ed25519; o Just
+O Just HUB protege o manifesto de atualização atual com assinatura Ed25519; o Just
 Private usa assinatura ECDSA P-256 destacada. Todos os produtos usam URLs determinísticas e hashes SHA-256.
 A CI rejeita inconsistências, origens inesperadas, referências privadas e
 padrões conhecidos de segredos.

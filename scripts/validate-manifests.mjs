@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import { isDeepStrictEqual } from "node:util";
 import path from "node:path";
 import { createHash, createPublicKey, verify } from "node:crypto";
 import { fileURLToPath, pathToFileURL } from "node:url";
@@ -286,7 +287,7 @@ function validateCatalog(catalog) {
 function validateHubUpdateInfo(updateInfo, hub) {
   requireExactKeys(
     updateInfo,
-    ["version", "notes", "downloadUrl", "sha256", "signature"],
+    ["version", "notes", "downloadUrl", "sha256"],
     "update_info",
   );
   requireSemver(updateInfo.version, "update_info.version");
@@ -307,11 +308,20 @@ function validateHubUpdateInfo(updateInfo, hub) {
     updateInfo.sha256 === hub.artifacts[0].sha256,
     "update_info: SHA-256 mismatch",
   );
-  const signature = updateInfo.signature;
+}
+
+function validateSignedHubUpdateInfo(updateInfo, signedInfo, hub) {
+  requireExactKeys(signedInfo,
+    ["version", "notes", "downloadUrl", "sha256", "signature"],
+    "update_info_signed");
+  const { signature, ...legacyFields } = signedInfo;
+  validateHubUpdateInfo(legacyFields, hub);
+  requireValue(isDeepStrictEqual(legacyFields, updateInfo),
+    "update_info_signed: legacy mismatch");
   requireValue(typeof signature === "string" && /^[A-Za-z0-9_-]{86}$/.test(signature)
     && Buffer.from(signature, "base64url").toString("base64url") === signature,
   "update_info: invalid signature encoding");
-  requireValue(verify(null, Buffer.from(`justhub-update-v1\n${updateInfo.version}\n${updateInfo.sha256}\n`),
+  requireValue(verify(null, Buffer.from(`justhub-update-v1\n${signedInfo.version}\n${signedInfo.sha256}\n`),
     HUB_UPDATE_KEY, Buffer.from(signature, "base64url")),
   "update_info: cryptographic verification failed");
 }
@@ -461,6 +471,7 @@ export function validateDocuments(documents) {
     validateProduct(documents.products[id], id);
   }
   validateHubUpdateInfo(documents.updateInfo, documents.products.justhub);
+  validateSignedHubUpdateInfo(documents.updateInfo, documents.signedUpdateInfo, documents.products.justhub);
   validatePrivateUpdate(
     documents.privateUpdateManifest,
     documents.privateUpdateSignature,
@@ -476,6 +487,7 @@ export function loadDocuments(root) {
   return {
     catalog: readJson(root, "catalog.json"),
     updateInfo: readJson(root, "update_info.json"),
+    signedUpdateInfo: readJson(root, "update_info_signed.json"),
     products: Object.fromEntries(
       Object.entries(PRODUCTS).map(([id, { manifest }]) => [
         id,

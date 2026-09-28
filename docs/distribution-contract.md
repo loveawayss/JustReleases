@@ -15,7 +15,8 @@ metadados públicos do Just Releases.
   atualização binária do Just Private.
 - `products/justprivate-update-manifest.sig` contém a assinatura destacada do
   manifesto de atualização do Just Private.
-- `update_info.json` publica a atualização do Just HUB com assinatura Ed25519.
+- `update_info.json` atende clientes legados; `update_info_signed.json` publica
+  a mesma atualização com assinatura Ed25519 para clientes novos.
 
 O campo `updatedAt` de `catalog.json` registra a publicação mais recente
 representada pelo catálogo. Toda alteração de versão estável deve atualizá-lo.

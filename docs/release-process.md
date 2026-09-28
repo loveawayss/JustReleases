@@ -28,8 +28,9 @@ nova versão.
 2. Atualize apenas os manifestos relacionados ao produto.
 3. Mantenha `catalog.json`, os manifestos de produto e endpoints legados
    consistentes.
-4. Para o Just HUB, publique em `update_info.json` a assinatura Ed25519 gerada
-   fora deste repositório para a versão e o SHA-256 do instalador final.
+4. Para o Just HUB, publique `update_info.json` sem assinatura para clientes
+   anteriores a 0.1.111 e `update_info_signed.json` com a assinatura Ed25519
+   gerada fora deste repositório. Os demais campos devem ser idênticos.
 5. Para o Just Private, assine
    `products/justprivate-update-manifest.json` e grave a assinatura em
    `products/justprivate-update-manifest.sig`.
