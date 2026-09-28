@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { createHash, verify } from "node:crypto";
+import { createHash, createPublicKey, verify } from "node:crypto";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
 const SHA256 = /^[a-f0-9]{64}$/i;
@@ -11,6 +11,9 @@ const SIGNATURE_PUBLIC_KEY = `-----BEGIN PUBLIC KEY-----
 MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEU6II+HT9VKtv6p33BjMgqF6zqoR7
 NR+DMZVVNltkG3YcW5RPfAl1xemgNRHaLUnVhQgU55z425U2QiagQHqhlw==
 -----END PUBLIC KEY-----`;
+const HUB_UPDATE_KEY = createPublicKey({ format: "jwk", key: {
+  kty: "OKP", crv: "Ed25519", x: "w3GpXs-EpzBlAV51R7INreB8_loWo-AxBu6AoCOFM6s",
+} });
 
 const PRODUCTS = Object.freeze({
   justhub: {
@@ -283,7 +286,7 @@ function validateCatalog(catalog) {
 function validateHubUpdateInfo(updateInfo, hub) {
   requireExactKeys(
     updateInfo,
-    ["version", "notes", "downloadUrl", "sha256"],
+    ["version", "notes", "downloadUrl", "sha256", "signature"],
     "update_info",
   );
   requireSemver(updateInfo.version, "update_info.version");
@@ -304,6 +307,13 @@ function validateHubUpdateInfo(updateInfo, hub) {
     updateInfo.sha256 === hub.artifacts[0].sha256,
     "update_info: SHA-256 mismatch",
   );
+  const signature = updateInfo.signature;
+  requireValue(typeof signature === "string" && /^[A-Za-z0-9_-]{86}$/.test(signature)
+    && Buffer.from(signature, "base64url").toString("base64url") === signature,
+  "update_info: invalid signature encoding");
+  requireValue(verify(null, Buffer.from(`justhub-update-v1\n${updateInfo.version}\n${updateInfo.sha256}\n`),
+    HUB_UPDATE_KEY, Buffer.from(signature, "base64url")),
+  "update_info: cryptographic verification failed");
 }
 
 function validatePrivateUpdate(manifest, signature, product) {
