@@ -91,10 +91,22 @@ test("rejects inconsistent legacy update metadata", () => {
   assert.throws(() => validateDocuments(documents), /SHA-256 mismatch/);
 });
 
+test("legacy Just HUB manifest has no signature field", () => {
+  const documents = validDocuments();
+  documents.updateInfo.signature = documents.signedUpdateInfo.signature;
+  assert.throws(() => validateDocuments(documents), /unexpected or missing fields/);
+});
+
 test("rejects an altered Just HUB update signature", () => {
   const documents = validDocuments();
-  documents.updateInfo.signature = "A" + documents.updateInfo.signature.slice(1);
+  documents.signedUpdateInfo.signature = "A" + documents.signedUpdateInfo.signature.slice(1);
   assert.throws(() => validateDocuments(documents), /cryptographic verification failed/);
+});
+
+test("rejects mismatched signed and legacy Just HUB manifests", () => {
+  const documents = validDocuments();
+  documents.signedUpdateInfo.notes = ["different notes"];
+  assert.throws(() => validateDocuments(documents), /notes mismatch/);
 });
 
 test("rejects an invalid detached signature", () => {

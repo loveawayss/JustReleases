@@ -6,5 +6,6 @@
     "Remove o atalho de recuperação da entrada do perfil."
   ],
   "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.111/JustHUBInstaller.exe",
-  "sha256": "90f8bb6af6f28039e8e5cf2f27dc1a073e6426e5c4f927e5c5067e5f6c885885"
+  "sha256": "90f8bb6af6f28039e8e5cf2f27dc1a073e6426e5c4f927e5c5067e5f6c885885",
+  "signature": "2g7P-PUlJxbMUfFffOnvSQIrFfq7tWUQX1eWCY6Op8Jwa42HW-4DaScGcTHe6PknBC36rhp0WGayGI0Bsi_xDw"
 }
