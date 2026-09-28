@@ -1,10 +1,9 @@
 {
-  "version": "0.1.111",
+  "version": "0.1.112",
   "notes": [
-    "Armazenamento privado em beta para contas autorizadas no piloto.",
-    "Simplifica a tela de arquivos e mostra o progresso de envios e downloads.",
-    "Remove o atalho de recuperação da entrada do perfil."
+    "Corrige a verificação das próximas atualizações do Just HUB.",
+    "Evita salvar uma pasta de armazenamento antes da confirmação do Google Drive."
   ],
-  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.111/JustHUBInstaller.exe",
-  "sha256": "90f8bb6af6f28039e8e5cf2f27dc1a073e6426e5c4f927e5c5067e5f6c885885"
+  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.112/JustHUBInstaller.exe",
+  "sha256": "adcd3895ff4fc2a93e06485c2cdb4f907d3e697382690bbfd0b31e508dc317a2"
 }
