@@ -15,7 +15,7 @@ metadados públicos do Just Releases.
   atualização binária do Just Private.
 - `products/justprivate-update-manifest.sig` contém a assinatura destacada do
   manifesto de atualização do Just Private.
-- `update_info.json` preserva o contrato legado de atualização do Just HUB.
+- `update_info.json` publica a atualização do Just HUB com assinatura Ed25519.
 
 O campo `updatedAt` de `catalog.json` registra a publicação mais recente
 representada pelo catálogo. Toda alteração de versão estável deve atualizá-lo.
@@ -50,6 +50,7 @@ publicados não podem ser substituídos silenciosamente.
 O Just Private adiciona assinatura ECDSA P-256 ao manifesto de atualização. A
 assinatura, a chave permitida, o canal e o vínculo de versão devem ser validados
 antes de aceitar o pacote.
+O Just HUB exige assinatura Ed25519 vinculada à versão e ao SHA-256 do instalador.
 
 ## Verificação manual
 

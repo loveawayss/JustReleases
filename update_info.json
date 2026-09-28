@@ -1,10 +1,11 @@
 {
-  "version": "0.1.110",
+  "version": "0.1.111",
   "notes": [
-    "Adiciona 11 aplicativos ao catálogo.",
-    "Consulta downloads atuais e impede versões fixas no catálogo.",
-    "Corrige downloads do Opera GX, AMD, VLC, DirectX e Razer Synapse."
+    "Armazenamento privado em beta para contas autorizadas no piloto.",
+    "Simplifica a tela de arquivos e mostra o progresso de envios e downloads.",
+    "Remove o atalho de recuperação da entrada do perfil."
   ],
-  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.110/JustHUBInstaller.exe",
-  "sha256": "a7fa91ab2a83efb5de613aa1773fea44f65091f0a68b4786bab520f101271be6"
+  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.111/JustHUBInstaller.exe",
+  "sha256": "90f8bb6af6f28039e8e5cf2f27dc1a073e6426e5c4f927e5c5067e5f6c885885",
+  "signature": "2g7P-PUlJxbMUfFffOnvSQIrFfq7tWUQX1eWCY6Op8Jwa42HW-4DaScGcTHe6PknBC36rhp0WGayGI0Bsi_xDw"
 }

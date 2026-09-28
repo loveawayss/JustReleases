@@ -28,11 +28,13 @@ nova versão.
 2. Atualize apenas os manifestos relacionados ao produto.
 3. Mantenha `catalog.json`, os manifestos de produto e endpoints legados
    consistentes.
-4. Para o Just Private, assine
+4. Para o Just HUB, publique em `update_info.json` a assinatura Ed25519 gerada
+   fora deste repositório para a versão e o SHA-256 do instalador final.
+5. Para o Just Private, assine
    `products/justprivate-update-manifest.json` e grave a assinatura em
    `products/justprivate-update-manifest.sig`.
-5. Abra um Pull Request para `main` e aguarde todos os checks obrigatórios.
-6. Faça merge somente após revisão e CI aprovada.
+6. Abra um Pull Request para `main` e aguarde todos os checks obrigatórios.
+7. Faça merge somente após revisão e CI aprovada.
 
 Nunca versione chaves privadas, tokens, certificados, logs sensíveis ou
 binários. Falhas de API, Git, assinatura ou validação devem encerrar o fluxo com

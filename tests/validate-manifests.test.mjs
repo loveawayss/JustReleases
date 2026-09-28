@@ -91,6 +91,12 @@ test("rejects inconsistent legacy update metadata", () => {
   assert.throws(() => validateDocuments(documents), /SHA-256 mismatch/);
 });
 
+test("rejects an altered Just HUB update signature", () => {
+  const documents = validDocuments();
+  documents.updateInfo.signature = "A" + documents.updateInfo.signature.slice(1);
+  assert.throws(() => validateDocuments(documents), /cryptographic verification failed/);
+});
+
 test("rejects an invalid detached signature", () => {
   const documents = validDocuments();
   documents.privateUpdateSignature.signature = "AAAA";

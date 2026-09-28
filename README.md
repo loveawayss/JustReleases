@@ -60,8 +60,8 @@ publicação está em [`docs/release-process.md`](docs/release-process.md).
 
 ## Segurança e contribuições
 
-O Just Private protege seu manifesto de atualização com assinatura ECDSA
-P-256 destacada. Todos os produtos usam URLs determinísticas e hashes SHA-256.
+O Just HUB protege seu manifesto de atualização com assinatura Ed25519; o Just
+Private usa assinatura ECDSA P-256 destacada. Todos os produtos usam URLs determinísticas e hashes SHA-256.
 A CI rejeita inconsistências, origens inesperadas, referências privadas e
 padrões conhecidos de segredos.
 
