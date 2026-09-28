@@ -2,8 +2,9 @@
   "version": "0.1.112",
   "notes": [
     "Corrige a verificação das próximas atualizações do Just HUB.",
-    "Evita salvar uma pasta de armazenamento antes da confirmação do Google Drive."
+    "Evita salvar uma pasta de armazenamento antes da confirmação do Google Drive.",
+    "Agiliza a listagem de arquivos e o envio ao armazenamento."
   ],
   "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.112/JustHUBInstaller.exe",
-  "sha256": "adcd3895ff4fc2a93e06485c2cdb4f907d3e697382690bbfd0b31e508dc317a2"
+  "sha256": "3f8dfce75a9b48fe180070e69f9dd0495eaa23934dbf22c006beea521d4b7c63"
 }
