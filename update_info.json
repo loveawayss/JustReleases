@@ -1,12 +1,10 @@
 {
-  "version": "0.1.115",
+  "version": "0.1.116",
   "notes": [
-    "Somente o perfil natasj pode alterar os limites de armazenamento.",
-    "Permite gerenciar o espaço próprio e dos outros armazenamentos pelo perfil natasj.",
-    "Valida a sessão do perfil administrador também no servidor.",
-    "Define 50 GB como limite padrão de cada perfil, preservando limites personalizados.",
-    "Libera o armazenamento para os perfis privados autorizados pelo Discord."
+    "Reduz a espera automática ao preparar o armazenamento.",
+    "Limita as tentativas de abertura e permite tentar novamente quando o serviço demora.",
+    "Melhora o diagnóstico de falhas do Google sem expor chaves ou dados privados."
   ],
-  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.115/JustHUBInstaller.exe",
-  "sha256": "ad50bb7db9a4d6617c1af804d4fc59bb3ede6950ba31f7efd8e02e14a8d1b1f3"
+  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.116/JustHUBInstaller.exe",
+  "sha256": "409e6e17872ce91fa44a796bd61e5ce4f45ae899a07fb65e66019f2ab7a26ecd"
 }
