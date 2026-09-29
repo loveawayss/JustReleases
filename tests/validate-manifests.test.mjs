@@ -24,9 +24,10 @@ test("product signatures reject altered manifest bytes and signatures", () => {
   const body = fs.readFileSync(new URL("../products/justprivate.json", import.meta.url), "utf8");
   const signature = fs.readFileSync(new URL("../products/justprivate.json.sig", import.meta.url), "utf8");
   assert.doesNotThrow(() => verifyProductSignature(body, signature));
-  assert.throws(() => verifyProductSignature(body.replace("3.0.40", "3.0.41"), signature),
+  assert.throws(() => verifyProductSignature(`${body}\n`, signature),
     /cryptographic verification failed/);
-  assert.throws(() => verifyProductSignature(body, `A${signature.trim().slice(1)}`),
+  const changed = `${signature[0] === "A" ? "B" : "A"}${signature.trim().slice(1)}`;
+  assert.throws(() => verifyProductSignature(body, changed),
     /cryptographic verification failed/);
 });
 
