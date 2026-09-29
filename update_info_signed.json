@@ -1,11 +1,10 @@
 {
-  "version": "0.1.117",
+  "version": "0.1.118",
   "notes": [
-    "Agiliza a preparação dos perfis e as transferências do armazenamento.",
-    "Preserva cópias cifradas para recuperação offline e conclui a limpeza ao excluir um perfil.",
-    "Reforça a segurança nativa e corrige o seletor de arquivos e o histórico da atualização."
+    "Mostra Arquivos Apagados com ícone na tela de armazenamento.",
+    "Remove o botão de atualização manual da lista de arquivos."
   ],
-  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.117/JustHUBInstaller.exe",
-  "sha256": "488cb9d0cce007f4d89088476be32b6054163bae6b61c8effadebfda750147ca",
-  "signature": "4F2wiMl45o_XDpqWOyPV_BIix_Q4Kxmd50z0ezLoKrY7Ue7whtvi9S0fdHYvivwR49DUqebJleDHzaPanzT0Bg"
+  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.118/JustHUBInstaller.exe",
+  "sha256": "2dc2745e63b152f19ec939927e5300cdcf3039e1454ee46c00324331dc6fb680",
+  "signature": "WI7dyqjmgWYbJ05kvN2gpWAeXqQ2R7fwGEuJcBlsKESYbzlDLyewSwabl51Ezq0sxQSpLdBpsQmdlT3tXaEXAw"
 }
