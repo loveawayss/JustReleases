@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "id": "justhub",
   "name": "Just HUB",
-  "version": "0.1.118",
+  "version": "0.1.119",
   "channel": "stable",
-  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.118",
+  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.119",
   "notes": [
-    "Mostra Arquivos Apagados com ícone na tela de armazenamento.",
-    "Remove o botão de atualização manual da lista de arquivos."
+    "Organiza a tela de armazenamento com ações alinhadas e espaço utilizado em destaque.",
+    "Simplifica a área vazia e ajusta os botões em janelas estreitas."
   ],
   "artifacts": [
     {
       "platform": "windows",
       "architecture": "x64",
       "fileName": "JustHUBInstaller.exe",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.118/JustHUBInstaller.exe",
-      "sha256": "2dc2745e63b152f19ec939927e5300cdcf3039e1454ee46c00324331dc6fb680"
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.119/JustHUBInstaller.exe",
+      "sha256": "c6322d9c6677714073b525f3ad50799731c63b09998c53203390fc3302a8dbd8"
     }
   ]
 }
