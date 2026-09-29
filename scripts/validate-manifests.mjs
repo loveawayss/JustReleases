@@ -64,9 +64,24 @@ const PRODUCTS = Object.freeze({
 
 const PRODUCT_FILES = new Set([
   ...Object.values(PRODUCTS).map(({ manifest }) => manifest),
+  ...["justcleaner", "justprivate", "justfree"].map((id) => `products/${id}.json.sig`),
   "products/justprivate-update-manifest.json",
   "products/justprivate-update-manifest.sig",
 ]);
+
+const SIGNED_PRODUCTS = ["justcleaner", "justprivate", "justfree"];
+const PRODUCT_SIGNATURE_PREFIX = Buffer.from("justhub-product-manifest-v1\n");
+
+export function verifyProductSignature(body, encodedSignature) {
+  const text = typeof encodedSignature === "string" && encodedSignature.length <= 128
+    ? encodedSignature.trim() : "";
+  requireValue(typeof body === "string" && /^[A-Za-z0-9_-]{86}$/.test(text),
+    "product signature: invalid encoding");
+  const signature = Buffer.from(text, "base64url");
+  requireValue(signature.length === 64 && verify(null,
+    Buffer.concat([PRODUCT_SIGNATURE_PREFIX, Buffer.from(body)]), HUB_UPDATE_KEY, signature),
+  "product signature: cryptographic verification failed");
+}
 
 function fail(message) {
   throw new Error(message);
@@ -515,6 +530,11 @@ export function validateRepository(root) {
     "products: unexpected or missing metadata file",
   );
   validateDocuments(loadDocuments(root));
+  for (const id of SIGNED_PRODUCTS) {
+    const body = fs.readFileSync(path.join(root, `products/${id}.json`), "utf8");
+    const signature = fs.readFileSync(path.join(root, `products/${id}.json.sig`), "utf8");
+    verifyProductSignature(body, signature);
+  }
 }
 
 const invokedPath =

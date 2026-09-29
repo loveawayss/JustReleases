@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import fs from "node:fs";
 import path from "node:path";
 import test from "node:test";
 import { fileURLToPath } from "node:url";
@@ -6,6 +7,7 @@ import {
   loadDocuments,
   validateDocuments,
   validateRepository,
+  verifyProductSignature,
 } from "../scripts/validate-manifests.mjs";
 
 const root = fileURLToPath(new URL("..", import.meta.url));
@@ -16,6 +18,16 @@ function validDocuments() {
 
 test("accepts the repository contract", () => {
   assert.doesNotThrow(() => validateRepository(root));
+});
+
+test("product signatures reject altered manifest bytes and signatures", () => {
+  const body = fs.readFileSync(new URL("../products/justprivate.json", import.meta.url), "utf8");
+  const signature = fs.readFileSync(new URL("../products/justprivate.json.sig", import.meta.url), "utf8");
+  assert.doesNotThrow(() => verifyProductSignature(body, signature));
+  assert.throws(() => verifyProductSignature(body.replace("3.0.40", "3.0.41"), signature),
+    /cryptographic verification failed/);
+  assert.throws(() => verifyProductSignature(body, `A${signature.trim().slice(1)}`),
+    /cryptographic verification failed/);
 });
 
 test("rejects an unknown product", () => {

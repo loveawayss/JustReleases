@@ -11,6 +11,8 @@ metadados públicos do Just Releases.
 - `products/justfree.json` descreve o pacote estável do Just Free Tweaks.
 - `products/justprivate.json` descreve o instalador e o pacote de atualização
   estáveis do Just Private.
+- `products/{justcleaner,justprivate,justfree}.json.sig` contém a assinatura
+  Ed25519 destacada dos bytes exatos de cada manifesto consumido pelo Just HUB.
 - `products/justprivate-update-manifest.json` define a política e o pacote de
   atualização binária do Just Private.
 - `products/justprivate-update-manifest.sig` contém a assinatura destacada do
@@ -33,6 +35,8 @@ Manifestos remotos são entrada não confiável. Um consumidor deve:
 6. rejeitar comandos, argumentos e caminhos locais fornecidos pela rede;
 7. calcular o SHA-256 do arquivo baixado antes de qualquer execução;
 8. interromper o fluxo e descartar o arquivo se houver divergência.
+9. ao instalar produtos Just pelo Just HUB, verificar a assinatura destacada
+   antes de interpretar o manifesto ou baixar o asset.
 
 Uma conclusão de download não comprova instalação nem atualização. O cliente
 deve consultar novamente o estado real do aplicativo no sistema operacional.
@@ -52,6 +56,8 @@ O Just Private adiciona assinatura ECDSA P-256 ao manifesto de atualização. A
 assinatura, a chave permitida, o canal e o vínculo de versão devem ser validados
 antes de aceitar o pacote.
 O Just HUB exige assinatura Ed25519 vinculada à versão e ao SHA-256 do instalador.
+Os manifestos dos outros produtos Just recebem uma assinatura Ed25519 dos bytes
+completos, com domínio `justhub-product-manifest-v1`, verificada pelo Just HUB.
 
 ## Verificação manual
 

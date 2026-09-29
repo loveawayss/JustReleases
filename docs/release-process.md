@@ -34,8 +34,13 @@ nova versão.
 5. Para o Just Private, assine
    `products/justprivate-update-manifest.json` e grave a assinatura em
    `products/justprivate-update-manifest.sig`.
-6. Abra um Pull Request para `main` e aguarde todos os checks obrigatórios.
-7. Faça merge somente após revisão e CI aprovada.
+6. Para Memory Reduct, Just Private e Just Free Tweaks, assine os bytes finais
+   do respectivo `products/<id>.json` com a chave offline de atualização do
+   Just HUB usando `node scripts/sign-product-manifest.mjs <chave-privada> <id>`.
+   Inclua o arquivo `products/<id>.json.sig` no mesmo PR. Qualquer edição do
+   JSON depois da assinatura exige assinar novamente.
+7. Abra um Pull Request para `main` e aguarde todos os checks obrigatórios.
+8. Faça merge somente após revisão e CI aprovada.
 
 Nunca versione chaves privadas, tokens, certificados, logs sensíveis ou
 binários. Falhas de API, Git, assinatura ou validação devem encerrar o fluxo com
