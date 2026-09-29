@@ -1,10 +1,10 @@
 {
-  "version": "0.1.116",
+  "version": "0.1.117",
   "notes": [
-    "Reduz a espera automática ao preparar o armazenamento.",
-    "Limita as tentativas de abertura e permite tentar novamente quando o serviço demora.",
-    "Melhora o diagnóstico de falhas do Google sem expor chaves ou dados privados."
+    "Agiliza a preparação dos perfis e as transferências do armazenamento.",
+    "Preserva cópias cifradas para recuperação offline e conclui a limpeza ao excluir um perfil.",
+    "Reforça a segurança nativa e corrige o seletor de arquivos e o histórico da atualização."
   ],
-  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.116/JustHUBInstaller.exe",
-  "sha256": "409e6e17872ce91fa44a796bd61e5ce4f45ae899a07fb65e66019f2ab7a26ecd"
+  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.117/JustHUBInstaller.exe",
+  "sha256": "488cb9d0cce007f4d89088476be32b6054163bae6b61c8effadebfda750147ca"
 }
