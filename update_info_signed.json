@@ -1,12 +1,13 @@
 {
-  "version": "0.1.114",
+  "version": "0.1.115",
   "notes": [
-    "Corrige a exclusão de perfis com armazenamento e permite retomar uma exclusão interrompida.",
-    "Impede que respostas atrasadas restaurem uma sessão após sair do perfil.",
-    "Corrige ações de envio e atualização da lista do armazenamento.",
-    "Consulta a versão estável atual do HWiNFO ao baixar."
+    "Somente o perfil natasj pode alterar os limites de armazenamento.",
+    "Permite gerenciar o espaço próprio e dos outros armazenamentos pelo perfil natasj.",
+    "Valida a sessão do perfil administrador também no servidor.",
+    "Define 50 GB como limite padrão de cada perfil, preservando limites personalizados.",
+    "Libera o armazenamento para os perfis privados autorizados pelo Discord."
   ],
-  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.114/JustHUBInstaller.exe",
-  "sha256": "83ba3ee12390f31a4f46ac33c916eb14f6fe97d109684599253e0505e25392db",
-  "signature": "njGaoHuwyzJDWWU0H0noCg70vHhFMRLydpGfQEEgc4u-E5GcN5SShSo_YbZAkFV7rvJclmfYAlNthJQc1lXCBw"
+  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.115/JustHUBInstaller.exe",
+  "sha256": "ad50bb7db9a4d6617c1af804d4fc59bb3ede6950ba31f7efd8e02e14a8d1b1f3",
+  "signature": "UQeB2ukHLngsPE3AdScNoN5grp-47cqSv-8c7EQecNogABgkokGBFkCgYivOQkgV_hvCdAgacegFR0gvTzCSDA"
 }
