@@ -1,10 +1,12 @@
 {
-  "version": "0.1.113",
+  "version": "0.1.114",
   "notes": [
-    "Confere a assinatura antes de oferecer a atualização.",
-    "Evita falhas se uma nova release surgir durante o download."
+    "Corrige a exclusão de perfis com armazenamento e permite retomar uma exclusão interrompida.",
+    "Impede que respostas atrasadas restaurem uma sessão após sair do perfil.",
+    "Corrige ações de envio e atualização da lista do armazenamento.",
+    "Consulta a versão estável atual do HWiNFO ao baixar."
   ],
-  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.113/JustHUBInstaller.exe",
-  "sha256": "001d1bb13f3be578d538ce0e9a22ce9edf378175b73d800655435f8643fae0e8",
-  "signature": "deyX1dP1qEcZjVnq5JF7EAnIXxA0RqM_k7T8e8-bEFGFbrrOfogg_CAN-CdV-A0yE99Kw67F1a-7Z1T1tdCWDw"
+  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.114/JustHUBInstaller.exe",
+  "sha256": "83ba3ee12390f31a4f46ac33c916eb14f6fe97d109684599253e0505e25392db",
+  "signature": "njGaoHuwyzJDWWU0H0noCg70vHhFMRLydpGfQEEgc4u-E5GcN5SShSo_YbZAkFV7rvJclmfYAlNthJQc1lXCBw"
 }
