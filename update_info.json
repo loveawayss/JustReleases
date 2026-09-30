@@ -1,9 +1,9 @@
 {
-  "version": "0.1.119",
+  "version": "0.1.120",
   "notes": [
-    "Organiza a tela de armazenamento com ações alinhadas e espaço utilizado em destaque.",
-    "Simplifica a área vazia e ajusta os botões em janelas estreitas."
+    "Reforça a segurança dos downloads dos produtos Just com manifestos assinados.",
+    "Restringe as imagens remotas da interface às origens usadas pelo aplicativo."
   ],
-  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.119/JustHUBInstaller.exe",
-  "sha256": "c6322d9c6677714073b525f3ad50799731c63b09998c53203390fc3302a8dbd8"
+  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.120/JustHUBInstaller.exe",
+  "sha256": "25723e4c2070391e54d7d8d2111a1f9f0a1e3cfd075934a176e03cc441454d63"
 }
