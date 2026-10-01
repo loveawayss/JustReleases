@@ -1,9 +1,9 @@
 {
-  "version": "0.1.120",
+  "version": "0.1.121",
   "notes": [
-    "Reforça a segurança dos downloads dos produtos Just com manifestos assinados.",
-    "Restringe as imagens remotas da interface às origens usadas pelo aplicativo."
+    "Aguarda a preparação das permissões do Google ao ativar o armazenamento de perfis novos.",
+    "Remove a borda vermelha de foco do seletor de perfis."
   ],
-  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.120/JustHUBInstaller.exe",
-  "sha256": "25723e4c2070391e54d7d8d2111a1f9f0a1e3cfd075934a176e03cc441454d63"
+  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.121/JustHUBInstaller.exe",
+  "sha256": "1d3028cbd21b132d7cdcd69364ec36fe95294deec7bf55f3c1903f640d0422b2"
 }
