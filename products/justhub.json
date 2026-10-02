@@ -2,20 +2,21 @@
   "schemaVersion": 1,
   "id": "justhub",
   "name": "Just HUB",
-  "version": "0.1.121",
+  "version": "0.1.122",
   "channel": "stable",
-  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.121",
+  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.122",
   "notes": [
-    "Aguarda a preparação das permissões do Google ao ativar o armazenamento de perfis novos.",
-    "Remove a borda vermelha de foco do seletor de perfis."
+    "Melhora a preparação do armazenamento e retoma tentativas temporárias automaticamente.",
+    "Reduz consultas repetidas e corrige a limpeza de perfis com preparação interrompida.",
+    "Diferencia falhas temporárias de configuração para evitar esperas desnecessárias."
   ],
   "artifacts": [
     {
       "platform": "windows",
       "architecture": "x64",
       "fileName": "JustHUBInstaller.exe",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.121/JustHUBInstaller.exe",
-      "sha256": "1d3028cbd21b132d7cdcd69364ec36fe95294deec7bf55f3c1903f640d0422b2"
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.122/JustHUBInstaller.exe",
+      "sha256": "d43f111dce82b8e51f2a620e79195a7828c6ab41332dafbbb4f977c2ea1be5af"
     }
   ]
 }
