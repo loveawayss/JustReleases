@@ -1,11 +1,7 @@
 {
-  "version": "0.1.124",
-  "notes": [
-    "Reforça a validação do acesso aos perfis privados.",
-    "Inclui as otimizações mais recentes do armazenamento.",
-    "Mantém a sessão do Discord e os dados ao atualizar."
-  ],
-  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.124/JustHUBInstaller.exe",
-  "sha256": "6ab46ba7e6c61956c1475ed6a18ea5fa12e23988e647fb952db46d147e0e0ed2",
-  "signature": "Qh-id2UgTWHge083jveoF84hbxd1kjsFn568TPm-YR7JlR0VlkVtVpCxH6BhH_f2MBSci4-L_A5r0iEx_seRAA"
+  "version": "0.1.125",
+  "notes": [],
+  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.125/JustHUBInstaller.exe",
+  "sha256": "6d1fdfdba569dd6ca5760930f2db66b742ed7f2a180c02c1966968d1f567ce7d",
+  "signature": "43Fw15ZoO6oGLdiXtnyyIbGWTgNgpB-7ZcW1n4u-RI8EyBQ2DE4puowCHLdz1JmH277DdIfz4FnuHOlbQo7LDw"
 }

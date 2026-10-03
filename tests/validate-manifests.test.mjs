@@ -20,6 +20,16 @@ test("accepts the repository contract", () => {
   assert.doesNotThrow(() => validateRepository(root));
 });
 
+test("Just HUB may omit release notes but not contain blank entries", () => {
+  const documents = validDocuments();
+  documents.products.justhub.notes = [];
+  documents.updateInfo.notes = [];
+  documents.signedUpdateInfo.notes = [];
+  assert.doesNotThrow(() => validateDocuments(documents));
+  documents.products.justhub.notes = [" "];
+  assert.throws(() => validateDocuments(documents), /invalid notes/);
+});
+
 test("product signatures reject altered manifest bytes and signatures", () => {
   const body = fs.readFileSync(new URL("../products/justprivate.json", import.meta.url), "utf8");
   const signature = fs.readFileSync(new URL("../products/justprivate.json.sig", import.meta.url), "utf8");
