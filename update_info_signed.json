@@ -1,11 +1,11 @@
 {
-  "version": "0.1.123",
+  "version": "0.1.124",
   "notes": [
-    "Reforça a proteção das sessões, arquivos e atualizações do Just HUB.",
-    "Reduz consultas de autorização e limita esperas desnecessárias no armazenamento.",
-    "Corrige falhas de rede e mantém os perfis disponíveis durante o carregamento."
+    "Reforça a validação do acesso aos perfis privados.",
+    "Inclui as otimizações mais recentes do armazenamento.",
+    "Mantém a sessão do Discord e os dados ao atualizar."
   ],
-  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.123/JustHUBInstaller.exe",
-  "sha256": "39f6f02f55d2bcf1af12ca93b4e8ec07e5671359e5a2e3551c7a867e795d47d3",
-  "signature": "bFv8g3I1Ef8951VbasX8dUdC4MvmvC8xPvLNZoxfPB5KoRfYfNhkIGSnUTYQH7iH4kyuyxQBXm_G5-CnOrXOCQ"
+  "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.124/JustHUBInstaller.exe",
+  "sha256": "6ab46ba7e6c61956c1475ed6a18ea5fa12e23988e647fb952db46d147e0e0ed2",
+  "signature": "Qh-id2UgTWHge083jveoF84hbxd1kjsFn568TPm-YR7JlR0VlkVtVpCxH6BhH_f2MBSci4-L_A5r0iEx_seRAA"
 }
