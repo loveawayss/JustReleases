@@ -132,11 +132,11 @@ function requireSha256(value, label) {
   );
 }
 
-function requireNotes(value, label) {
+function requireNotes(value, label, allowEmpty = false) {
   const validString = typeof value === "string" && value.trim().length > 0;
   const validList =
     Array.isArray(value) &&
-    value.length > 0 &&
+    (allowEmpty || value.length > 0) &&
     value.every((item) => typeof item === "string" && item.trim().length > 0);
   requireValue(validString || validList, `${label}: invalid notes`);
 }
@@ -232,7 +232,7 @@ function validateProduct(product, id) {
   requireValue(product.name === contract.name, `product ${id}: name mismatch`);
   requireSemver(product.version, `product ${id}.version`);
   requireValue(product.channel === "stable", `product ${id}: stable required`);
-  requireNotes(product.notes, `product ${id}.notes`);
+  requireNotes(product.notes, `product ${id}.notes`, id === "justhub");
 
   const tag = contract.tag(product.version);
   requireReleaseUrl(product.releaseUrl, tag, `product ${id}.releaseUrl`);
@@ -306,7 +306,7 @@ function validateHubUpdateInfo(updateInfo, hub) {
     "update_info",
   );
   requireSemver(updateInfo.version, "update_info.version");
-  requireNotes(updateInfo.notes, "update_info.notes");
+  requireNotes(updateInfo.notes, "update_info.notes", true);
   requireValue(
     updateInfo.version === hub.version,
     "update_info: version mismatch",
