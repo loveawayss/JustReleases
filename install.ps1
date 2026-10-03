@@ -174,8 +174,7 @@ try {
         throw "O SHA-256 informado pelo manifesto é inválido."
     }
     if (
-        $updateInfo.notes -isnot [System.Array] -or
-        $updateInfo.notes.Count -eq 0
+        $updateInfo.notes -isnot [System.Array]
     ) {
         throw "As notas da versão são inválidas."
     }
