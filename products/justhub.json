@@ -2,21 +2,21 @@
   "schemaVersion": 1,
   "id": "justhub",
   "name": "Just HUB",
-  "version": "0.1.122",
+  "version": "0.1.123",
   "channel": "stable",
-  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.122",
+  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.123",
   "notes": [
-    "Melhora a preparação do armazenamento e retoma tentativas temporárias automaticamente.",
-    "Reduz consultas repetidas e corrige a limpeza de perfis com preparação interrompida.",
-    "Diferencia falhas temporárias de configuração para evitar esperas desnecessárias."
+    "Reforça a proteção das sessões, arquivos e atualizações do Just HUB.",
+    "Reduz consultas de autorização e limita esperas desnecessárias no armazenamento.",
+    "Corrige falhas de rede e mantém os perfis disponíveis durante o carregamento."
   ],
   "artifacts": [
     {
       "platform": "windows",
       "architecture": "x64",
       "fileName": "JustHUBInstaller.exe",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.122/JustHUBInstaller.exe",
-      "sha256": "d43f111dce82b8e51f2a620e79195a7828c6ab41332dafbbb4f977c2ea1be5af"
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.123/JustHUBInstaller.exe",
+      "sha256": "39f6f02f55d2bcf1af12ca93b4e8ec07e5671359e5a2e3551c7a867e795d47d3"
     }
   ]
 }

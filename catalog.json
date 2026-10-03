@@ -2,31 +2,39 @@
   "schemaVersion": 1,
   "catalogId": "just-releases",
   "repository": "https://github.com/loveawayss/JustReleases",
-  "updatedAt": "2026-09-28T03:28:58Z",
+  "updatedAt": "2026-10-03T01:49:14Z",
   "products": [
     {
       "id": "justhub",
       "name": "Just HUB",
       "manifest": "products/justhub.json",
-      "channels": ["stable"]
+      "channels": [
+        "stable"
+      ]
     },
     {
       "id": "justcleaner",
       "name": "Memory Reduct",
       "manifest": "products/justcleaner.json",
-      "channels": ["stable"]
+      "channels": [
+        "stable"
+      ]
     },
     {
       "id": "justprivate",
       "name": "JustPrivate",
       "manifest": "products/justprivate.json",
-      "channels": ["stable"]
+      "channels": [
+        "stable"
+      ]
     },
     {
       "id": "justfree",
       "name": "Just Free Tweaks",
       "manifest": "products/justfree.json",
-      "channels": ["stable"]
+      "channels": [
+        "stable"
+      ]
     }
   ]
 }
