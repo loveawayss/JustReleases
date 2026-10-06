@@ -2,17 +2,17 @@
   "schemaVersion": 1,
   "id": "justhub",
   "name": "Just HUB",
-  "version": "0.1.126",
+  "version": "0.1.127",
   "channel": "stable",
-  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.126",
+  "releaseUrl": "https://github.com/loveawayss/JustReleases/releases/tag/justhub-v0.1.127",
   "notes": [],
   "artifacts": [
     {
       "platform": "windows",
       "architecture": "x64",
       "fileName": "JustHUBInstaller.exe",
-      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.126/JustHUBInstaller.exe",
-      "sha256": "8cffe147210baf6a242e7e3d56ffd8a284cd3f728a93b561c4eb999ee5109580"
+      "downloadUrl": "https://github.com/loveawayss/JustReleases/releases/download/justhub-v0.1.127/JustHUBInstaller.exe",
+      "sha256": "603139387a43d2410e3a481d85e1f7e4cf5f5918034ae69be022a66655ab4f1e"
     }
   ]
 }
